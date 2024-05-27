@@ -23,7 +23,7 @@ http
     console.log(`지정 경로: ${path}`);
 
     if (url === `/`) {
-      readFiles(req, res, `index.html`, `text/html`);
+      readFiles(req, res, `./public/index.html`, `text/html`);
     } else if (fileExtension === `ico`) {
       readFiles(req, res, path, `image/vnd.microsoft.icon`);
     } else if (fileExtension === `css`) {
