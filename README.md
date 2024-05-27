@@ -5,10 +5,10 @@ gitTrainingWithServer
 ├─ public
 │  └─ index.html
 ├─ README.md
-├─ server.js
 └─ src
    ├─ client
    ├─ server
+   │  └─ server.js
    └─ styles
 
 ```
