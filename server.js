@@ -17,20 +17,21 @@ http
   .createServer((req, res) => {
     let url = req.url;
     let fileExtension = url.split(`.`)[1];
+    let path = url.slice(1, url.length);
 
     console.log(`요청 url: ${url}`);
-    console.log(`지정 경로: ${url.slice(1, url.length)}`);
+    console.log(`지정 경로: ${path}`);
 
     if (url === `/`) {
       readFiles(req, res, `index.html`, `text/html`);
     } else if (fileExtension === `ico`) {
-      readFiles(req, res, url.slice(1, url.length), `image/vnd.microsoft.icon`);
+      readFiles(req, res, path, `image/vnd.microsoft.icon`);
     } else if (fileExtension === `css`) {
-      readFiles(req, res, url.slice(1, url.length), `text/css`);
+      readFiles(req, res, path, `text/css`);
     } else if (fileExtension === `js`) {
-      readFiles(req, res, url.slice(1, url.length), `text/javascript`);
+      readFiles(req, res, path, `text/javascript`);
     } else if (fileExtension === `html`) {
-      readFiles(req, res, url.slice(1, url.length), `text/html`);
+      readFiles(req, res, path, `text/html`);
     }
   })
   .listen(8000, () => {
