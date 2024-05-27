@@ -3,15 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>테스트</title>
+    <title>BLOG</title>
     <link rel="stylesheet" href="../src/styles/style.css" />
   </head>
   <body>
-    <form action="input-form" method="post">
-      <input type="text" name="title" id="" />
-      <textarea name="content" id="" cols="30" rows="10"></textarea>
-      <button type="submit">등록</button>
-    </form>
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <div
+      id="root"
+      class="flex justify-center items-center bg-red-600 w-screen h-screen"
+    >
+      <div class="w-11/12 h-screen bg-yellow-800">
+        <div id="input-box"></div>
+        <aside id="postings" class="">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </aside>
+        <section>
+          <div></div>
+          <div></div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
