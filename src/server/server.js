@@ -1,6 +1,5 @@
 const http = require(`node:http`);
 const fs = require(`node:fs`);
-const { dirname } = require("node:path");
 
 const readFiles = (req, res, path, contentType) => {
   fs.readFile(path, (err, data) => {

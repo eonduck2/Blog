@@ -1,4 +1,3 @@
-
 ```
 gitTrainingWithServer
 ├─ favicon.ico
