@@ -23,7 +23,7 @@ http
     console.log(`지정 경로: ${path}`);
 
     if (url === `/`) {
-      readFiles(req, res, `/index.html`, `text/html`);
+      readFiles(req, res, `./public/index.html`, `text/html`);
     } else if (fileExtension === `ico`) {
       readFiles(req, res, path, `image/vnd.microsoft.icon`);
     } else if (fileExtension === `css`) {
@@ -34,6 +34,6 @@ http
       readFiles(req, res, path, `text/html`);
     }
   })
-  .listen(8000, () => {
-    console.log(`the server is processing on http://localhost:8000`);
+  .listen(8080, () => {
+    console.log(`the server is processing on http://localhost:8080`);
   });
