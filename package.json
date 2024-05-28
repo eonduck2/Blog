@@ -11,9 +11,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@vanilla-extract/css": "^1.15.2",
     "nodemon": "^3.1.1"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.3"
   }
 }
