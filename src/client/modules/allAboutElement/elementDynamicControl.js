@@ -1,30 +1,9 @@
-// !----------- don't be use this module ------------
 /** 
- * * 특정 element를 인자로 받아 클래스를
+ * * 특정 element와 Key - Value로 스타일 값이 짝 지어진 객체를 받아 동적 스타일링
   @param element 
 */
-export default (element) => {
-  if (element.className == `header-menu-li`) {
-    headerLi = {
-      // width: `100%`,
-      // height: `100%`,
-      // backgroundColor: `#D9D9D9`,
-    };
-
-    const stylesObjectArr = Object.entries(styles);
-
-    /**
-     * * 아래 반복문은, 다음 코드와 같다.
-     * * element.style.width = `100%`;
-     * * element.style.height = `100%`;
-     * * element.style.backgroundColor = `#D9D9D9`;
-     */
-
-    for (let i = 0; i < stylesObjectArr.length; i++) {
-      element.style[stylesObjectArr[i][0]] = stylesObjectArr[i][1];
-    }
-
-    return;
+export default (element, styleObj) => {
+  for (let key in styleObj) {
+    element.style[key] = styleObj[key];
   }
 };
-// !----------- don't be use this module ------------
