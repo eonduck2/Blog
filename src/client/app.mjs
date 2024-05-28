@@ -8,7 +8,7 @@ import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
 
 /**
- *  IMPORTANT: 모든 모듈의 중심
+ *  IMPORTANT
  *  [O]: 현재 상태
  *  CHECKLIST: 브라우저 최초 접속 동작 확인
  *  NOTE: 1. 기능 추가 시, 가장 먼저 봐야
