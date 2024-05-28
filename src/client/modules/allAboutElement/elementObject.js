@@ -1,5 +1,14 @@
+/** 
+ * TYPE[OBJECT]
+ * 
+ * STATUS[O] - 현재 상태
+ 
+ * CHECKLIST: 24.05.29
+
+ * NOTE: 특정 Element의 태그 이름과 Class, Id가 Property로 담겨있는 Object
+*/
+
 export default Object = {
-  // * 기능 상 부모 역할을 담당하게 될 Element들이 assign될 객체로, property로서 보이지 않는 부모 element들이 함수에서 generate됨
   parentElements: {
     root: document.getElementById(`root`),
   },
@@ -12,7 +21,6 @@ export default Object = {
       className: ``,
       id: `root`,
     },
-    // !----------------------------------- don't be use this Elements
     rootFirstChildDiv: {
       element: `div`,
       className: `root-first-child-div`,
@@ -54,7 +62,6 @@ export default Object = {
       className: `first-section-second-child-div`,
       id: ``,
     },
-    // !----------------------------------- don't be use this Elements
     div: {
       element: `div`,
       className: ``,

@@ -9,10 +9,20 @@ import elStyles from "./modules/styles/eleStyleProperties.js";
 
 /**
  *  IMPORTANT
+<<<<<<< HEAD
+ *
+ *  STATUS[O] - 현재 상태
+ *
+ *  CHECKLIST: 24.05.29 브라우저 최초 접속 동작 확인
+ *
+=======
  *  [O]: 현재 상태
  *  CHECKLIST: 브라우저 최초 접속 동작 확인
+>>>>>>> develop
  *  NOTE: 1. 기능 추가 시, 가장 먼저 봐야
+ *
  *  NOTE: 2. 기능 하나 추가할 때마다 꼭 단위 테스트
+ *
  *  TODO: 기능 추가 시 테스트 && 더블 체크
  */
 window.onload = () => {
