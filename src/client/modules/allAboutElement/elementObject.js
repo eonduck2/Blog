@@ -4,8 +4,12 @@ export default Object = {
     root: document.getElementById(`root`),
   },
 
+  domElements:{
+    
+  }
+
   divs: {
-    // !--------------------------------------- not to used
+    // !----------------------------------- don't be use this Element
     rootFirstChildDiv: {
       element: `div`,
       className: `root-first-child-div`,
@@ -36,8 +40,6 @@ export default Object = {
       id: ``,
     },
 
-    // !--------------------------------------- not to used
-
     firstSectionFirstChildDiv: {
       element: `div`,
       className: `first-section-first-child-div`,
@@ -49,7 +51,7 @@ export default Object = {
       className: `first-section-second-child-div`,
       id: ``,
     },
-
+    // !----------------------------------- don't be use this Element
     div: {
       element: `div`,
       className: ``,
@@ -119,15 +121,15 @@ export default Object = {
     id: ``,
   },
 
-  firstSectionFirstChildDivImg: {
-    element: `img`,
-    className: `first-section-first-child-div-img`,
-    id: ``,
-  },
+  // firstSectionFirstChildDivImg: {
+  //   element: `img`,
+  //   className: `first-section-first-child-div-img`,
+  //   id: ``,
+  // },
 
-  firstSectionSecondChildDivImg: {
-    element: `img`,
-    className: `first-section-second-child-div-img`,
-    id: ``,
-  },
+  // firstSectionSecondChildDivImg: {
+  //   element: `img`,
+  //   className: `first-section-second-child-div-img`,
+  //   id: ``,
+  // },
 };
