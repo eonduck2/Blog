@@ -3,7 +3,7 @@
  * * 특정 element를 인자로 받아 클래스를
   @param element 
 */
-export default function (element) {
+export default (element) => {
   if (element.className == `header-menu-li`) {
     headerLi = {
       // width: `100%`,
@@ -26,5 +26,5 @@ export default function (element) {
 
     return;
   }
-}
+};
 // !----------- don't be use this module ------------

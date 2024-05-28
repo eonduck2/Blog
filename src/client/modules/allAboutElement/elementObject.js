@@ -4,12 +4,15 @@ export default Object = {
     root: document.getElementById(`root`),
   },
 
-  domElements:{
-    
-  }
+  domElements: {},
 
   divs: {
-    // !----------------------------------- don't be use this Element
+    root: {
+      element: `div`,
+      className: ``,
+      id: `root`,
+    },
+    // !----------------------------------- don't be use this Elements
     rootFirstChildDiv: {
       element: `div`,
       className: `root-first-child-div`,
@@ -51,11 +54,17 @@ export default Object = {
       className: `first-section-second-child-div`,
       id: ``,
     },
-    // !----------------------------------- don't be use this Element
+    // !----------------------------------- don't be use this Elements
     div: {
       element: `div`,
       className: ``,
       id: ``,
+    },
+
+    rootFirstDiv: {
+      element: `div`,
+      className: `test`,
+      id: `test`,
     },
   },
 

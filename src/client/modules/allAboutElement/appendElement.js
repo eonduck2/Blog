@@ -5,7 +5,7 @@
  * @param thirdEle 제 3 요소
  */
 
-export default function (parentEle, childEle, thirdEle) {
+export default (parentEle, childEle, thirdEle) => {
   if (parentEle == undefined || childEle == undefined) {
     return;
   } else if (parentEle != undefined && childEle != undefined) {
@@ -21,4 +21,4 @@ export default function (parentEle, childEle, thirdEle) {
       return;
     }
   }
-}
+};

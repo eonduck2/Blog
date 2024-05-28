@@ -28,7 +28,7 @@ http
       readFiles(req, res, path, `image/vnd.microsoft.icon`);
     } else if (fileExtension === `css`) {
       readFiles(req, res, path, `text/css`);
-    } else if (fileExtension === `js`) {
+    } else if (fileExtension === `js` || fileExtension === `mjs`) {
       readFiles(req, res, path, `text/javascript`);
     } else if (fileExtension === `html`) {
       readFiles(req, res, path, `text/html`);
