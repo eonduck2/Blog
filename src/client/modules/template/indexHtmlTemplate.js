@@ -1,7 +1,10 @@
-/**
- * @param noParam
- * * HTML 내에 <div id="root"> 존재 시, HTML 코드 추가, 존재하지 않을 시 생성하고 추가
- */
+/** 
+ * STATUS[O]: 현재 상태
+ * 
+ * CHECKLIST: 24.05.28
+ * NOTE: index.html 최초 응답 시, <div id ="root"> 없으면 추가
+  @param NoParam
+*/
 export default () => {
   let root = document.getElementById(`root`);
 
