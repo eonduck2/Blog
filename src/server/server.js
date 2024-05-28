@@ -21,7 +21,6 @@ http
 
     console.log(`요청 url: ${url}`);
     console.log(`지정 경로: ${path}`);
-
     if (url === `/`) {
       readFiles(req, res, `./public/index.html`, `text/html`);
     } else if (fileExtension === `ico`) {
