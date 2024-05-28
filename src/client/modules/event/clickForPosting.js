@@ -1,11 +1,13 @@
-import elStyles from "../allAboutElement/elementDynamicControl";
+// import elStyles from "../allAboutElement/elementDynamicControl";
 
 /** 
  * TYPE[FUNCTION]
  * 
- * STATUS[O] - 현재 상태
+ * STATUS[X] - 현재 상태
  * 
- * CHECKLIST: 24.05.28
+ * FIXME
+ * 
+ * CHECKLIST: 24.05.29/02:05 AM import 시, 서빙 관련 문제 확인
  * 
  * NOTE: 모달(글 쓰기) 버튼 클릭 시, 모달 창 팝업
   @param NoParam
@@ -19,6 +21,6 @@ export default () => {
       display: `flex`,
     };
 
-    elStyles($postingBtn, modalStyling);
+    // elStyles($postingBtn, modalStyling);
   };
 };
