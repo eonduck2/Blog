@@ -1,36 +1,23 @@
-const extensionsAndMime = require(`../object/MimeTypeObject.js`);
+const extensionsAndMime = require(`../object/MimeTypeObject/extensionAndMime.js`);
 
 const checkTypes = (req) => {
   let url = req.url;
   let fileExtension = url.split(`.`)[1];
   let path = url.slice(1, url.length);
 
-  // if (url === `/`) {
-  //   return {
-  //     path: `./public/index.html`,
-  //     contentType: `text/html`,
-  //   };
-  // } else if (fileExtension === `ico`) {
-  //   return {
-  //     path: path,
-  //     contentType: `image/vnd.microsoft.icon`,
-  //   };
-  // } else if (fileExtension === `css`) {
-  //   return {
-  //     path: path,
-  //     contentType: `text/css`,
-  //   };
-  // } else if (fileExtension === `js` || fileExtension === `mjs`) {
-  //   return {
-  //     path: path,
-  //     contentType: `text/javascript`,
-  //   };
-  // } else if (fileExtension === `html`) {
-  //   return {
-  //     path: path,
-  //     contentType: `text/html`,
-  //   };
-  // }
+  for (let key in extensionsAndMime) {
+    if (url == key) {
+      return {
+        path: `./public/index.html`,
+        contentType: extensionsAndMime[key],
+      };
+    } else if (fileExtension == key) {
+      return {
+        path: path,
+        contentType: extensionsAndMime[key],
+      };
+    }
+  }
 };
 
 module.exports = checkTypes;
