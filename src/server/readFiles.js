@@ -14,13 +14,14 @@ const fs = require(`node:fs`);
   @param contentType 파일의 타입 설정
 */
 const readFiles = (contentObj) => {
+  let { res, path, contentType } = contentObj;
   fs.readFile(path, (err, data) => {
     if (err != null) {
       res.writeHead(500, { "Content-Type": "text/plain" });
       res.end(data);
     } else {
-      res.end(data);
       res.writeHead(200, { "Content-Type": contentType });
+      res.end(data);
     }
   });
 };
