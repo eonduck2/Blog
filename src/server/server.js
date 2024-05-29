@@ -5,7 +5,7 @@ const checkTypes = require(`./modules/checkTypes.js`);
 
 http
   .createServer((req, res) => {
-    readFiles(checkTypes(req, res));
+    readFiles(checkTypes(req), res);
   })
   .listen(8080, () => {
     console.log(`the server is processing on http://localhost:8080`);

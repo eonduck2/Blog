@@ -10,8 +10,8 @@ const fs = require(`node:fs`);
  * NOTE: 1. 파일 읽고, MIME타입에 따른 처리
   @param contentObj res, path, content-type을 property로 갖는 객체
 */
-const readFiles = (contentObj) => {
-  let { res, path, contentType } = contentObj;
+const readFiles = (contentObj, res) => {
+  let { path, contentType } = contentObj;
   fs.readFile(path, (err, data) => {
     if (err != null) {
       res.writeHead(500, { "Content-Type": "text/plain" });
