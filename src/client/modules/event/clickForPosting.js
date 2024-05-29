@@ -1,4 +1,4 @@
-import elStyles from "../allAboutElement/elementDynamicControl";
+import elStyles from "../allAboutElement/elementDynamicControl.js";
 
 /** 
  * STATUS[O]: 현재 상태
