@@ -21,7 +21,6 @@ import elStyles from "./modules/styles/eleStyleProperties.js";
  *  TODO: 기능 추가 시 테스트 && 더블 체크
  */
 window.onload = () => {
-  console.log(datas);
   indexHtmlTemplate();
   document.getElementById(`root`).innerHTML = datas.html.rootHtmlData;
   elDynamicControl(document.getElementById(`modal`), elStyles.modal);

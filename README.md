@@ -1,13 +1,13 @@
-
 ```
-blog                                        //
+gitTrainingWithServer                       //
 ├─ favicon.ico                              //
 ├─ next.config.js                           //
 ├─ package-lock.json                        //
 ├─ package.json                             //
 ├─ public                                   //
-│  ├─ html                                  //
-│  ├─ images                                //
+│  ├─ Gif                                   //
+│  ├─ HTML                                  //
+│  ├─ Images                                //
 │  └─ index.html                            //
 ├─ README.md                                //
 └─ src                                      //
