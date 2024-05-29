@@ -15,10 +15,10 @@ export default () => {
   const $postingBtn = document.querySelector(`#root button:first-child`);
   const $modal = document.getElementById(`modal`);
   $postingBtn.onclick = () => {
-    modalStyling = {
+    const modalStyling = {
       display: `flex`,
     };
 
-    elStyles($postingBtn, modalStyling);
+    elStyles($modal, modalStyling);
   };
 };
