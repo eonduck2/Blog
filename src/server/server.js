@@ -48,23 +48,13 @@ const checkTypes = (req, res) => {
     };
     readFiles(req, res, path, `text/html`);
   }
-  // if (url === `/`) {
-  //     readFiles(req, res, `./public/index.html`, `text/html`);
-  //   } else if (fileExtension === `ico`) {
-  //     readFiles(req, res, path, `image/vnd.microsoft.icon`);
-  //   } else if (fileExtension === `css`) {
-  //     readFiles(req, res, path, `text/css`);
-  //   } else if (fileExtension === `js` || fileExtension === `mjs`) {
-  //     readFiles(req, res, path, `text/javascript`);
-  //   } else if (fileExtension === `html`) {
-  //     readFiles(req, res, path, `text/html`);
-  //   }
 };
 
 http
   .createServer((req, res) => {
-    console.log(`요청 url: ${url}`);
-    console.log(`지정 경로: ${path}`);
+    // console.log(`요청 url: ${url}`);
+    // console.log(`지정 경로: ${path}`);
+    readFiles(checkTypes(req, res));
   })
   .listen(8080, () => {
     console.log(`the server is processing on http://localhost:8080`);

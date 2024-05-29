@@ -13,7 +13,7 @@ const fs = require(`node:fs`);
   @param path 파일을 읽을 경로
   @param contentType 파일의 타입 설정
 */
-const readFiles = (req, res, path, contentType) => {
+const readFiles = (contentObj) => {
   fs.readFile(path, (err, data) => {
     if (err != null) {
       res.writeHead(500, { "Content-Type": "text/plain" });
