@@ -34,8 +34,11 @@ blog                                        //
    │  │  ├─ object                          //
    │  │  │  └─ MimeTypeObject               //
    │  │  │     └─ extensionAndMime.js       //
-   │  │  └─ reading                         //
-   │  │     └─ readFiles.js                 //
+   │  │  ├─ reading                         //
+   │  │  │  └─ readFiles.js                 //
+   │  │  └─ submit                          //
+   │  │     ├─ methodGet                    //
+   │  │     └─ methodPost                   //
    │  └─ server.js                          //
    └─ styles                                //
       ├─ style.css                          //
