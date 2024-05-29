@@ -1,3 +1,5 @@
+const extensionsAndMime = require(`../object/MimeTypeObject.js`);
+
 const checkTypes = (req) => {
   let url = req.url;
   let fileExtension = url.split(`.`)[1];
