@@ -3,7 +3,10 @@ const fs = require(`node:fs`);
 /** 
  * STATUS[O]: 현재 상태
  * 
+ * TYPE[FUNCTION]
+ * 
  * CHECKLIST: 24.05.28
+ * 
  * NOTE: 1. 파일 읽고, MIME타입에 따른 처리
   @param req 서버의 요청 객체
   @param res 서버의 응답 객체
