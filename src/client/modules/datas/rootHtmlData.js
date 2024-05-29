@@ -15,10 +15,10 @@ export default Object = {
       <div id="x-icon">
         <i class="fas fa-x"></i>
       </div>
-      <form action="title-submit" method="post">
+      <form action="public/index.html" method="post">
         <input type="text" name="title" id="" />
         <textarea name="" id="" cols="30" rows="10"></textarea>
-        <button type="submit">글 작성</button>
+        <button type="submit">제출</button>
       </form>
     </div>
 

@@ -8,7 +8,7 @@ import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
 
 /**
- *  IMPORTANT: 메인 로직
+ *  IMPORTANT
  *
  *  STATUS[O] - 현재 상태
  *
