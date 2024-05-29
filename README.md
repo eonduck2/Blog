@@ -1,13 +1,12 @@
 ```
-gitTrainingWithServer                       //
+blog                                        //
 ├─ favicon.ico                              //
 ├─ next.config.js                           //
 ├─ package-lock.json                        //
 ├─ package.json                             //
 ├─ public                                   //
-│  ├─ Gif                                   //
-│  ├─ HTML                                  //
-│  ├─ Images                                //
+│  ├─ html                                  //
+│  ├─ images                                //
 │  └─ index.html                            //
 ├─ README.md                                //
 └─ src                                      //
@@ -28,7 +27,15 @@ gitTrainingWithServer                       //
    │     └─ template                        //
    │        └─ indexHtmlTemplate.js         //
    ├─ server                                //
-   │  ├─ readFiles.js                       //
+   │  ├─ modules                            //
+   │  │  ├─ array                           //
+   │  │  ├─ checking                        //
+   │  │  │  └─ checkTypes.js                //
+   │  │  ├─ object                          //
+   │  │  │  └─ MimeTypeObject               //
+   │  │  │     └─ extensionAndMime.js       //
+   │  │  └─ reading                         //
+   │  │     └─ readFiles.js                 //
    │  └─ server.js                          //
    └─ styles                                //
       ├─ style.css                          //
