@@ -1,3 +1,5 @@
+const fs = require(`node:fs`);
+
 const readFiles = (req, res, path, contentType) => {
   fs.readFile(path, (err, data) => {
     if (err != null) {
