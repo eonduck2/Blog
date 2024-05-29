@@ -17,7 +17,7 @@ export default Object = {
       </div>
       <form action="title-submit" method="post">
         <input type="text" name="title" id="" />
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="content" id="" cols="30" rows="10"></textarea>
         <button type="submit">글 작성</button>
       </form>
     </div>
