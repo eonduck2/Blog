@@ -15,7 +15,7 @@ export default Object = {
       <div id="x-icon">
         <i class="fas fa-x"></i>
       </div>
-      <form action="title-submit" method="post">
+      <form action="./public/html/posted.html" method="post">
         <input type="text" name="title" id="" />
         <textarea name="content" id="" cols="30" rows="10"></textarea>
         <button type="submit">글 작성</button>
