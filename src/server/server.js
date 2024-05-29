@@ -8,14 +8,44 @@ const checkTypes = (req, res) => {
   let path = url.slice(1, url.length);
 
   if (url === `/`) {
+    return {
+      req: req,
+      res: res,
+      path: `./public/index.html`,
+      contentType: `text/html`,
+    };
     readFiles(req, res, `./public/index.html`, `text/html`);
   } else if (fileExtension === `ico`) {
+    return {
+      req: req,
+      res: res,
+      path: path,
+      contentType: `image/vnd.microsoft.icon`,
+    };
     readFiles(req, res, path, `image/vnd.microsoft.icon`);
   } else if (fileExtension === `css`) {
+    return {
+      req: req,
+      res: res,
+      path: path,
+      contentType: `text/css`,
+    };
     readFiles(req, res, path, `text/css`);
   } else if (fileExtension === `js` || fileExtension === `mjs`) {
+    return {
+      req: req,
+      res: res,
+      path: path,
+      contentType: `text/javascript`,
+    };
     readFiles(req, res, path, `text/javascript`);
   } else if (fileExtension === `html`) {
+    return {
+      req: req,
+      res: res,
+      path: path,
+      contentType: `text/html`,
+    };
     readFiles(req, res, path, `text/html`);
   }
   // if (url === `/`) {

@@ -19,8 +19,8 @@ const readFiles = (req, res, path, contentType) => {
       res.writeHead(500, { "Content-Type": "text/plain" });
       res.end(data);
     } else {
-      res.writeHead(200, { "Content-Type": contentType });
       res.end(data);
+      res.writeHead(200, { "Content-Type": contentType });
     }
   });
 };
