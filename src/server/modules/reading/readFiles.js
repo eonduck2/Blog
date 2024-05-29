@@ -12,6 +12,7 @@ const fs = require(`node:fs`);
 */
 const readFiles = (contentObj, res) => {
   let { path, contentType } = contentObj;
+
   fs.readFile(path, (err, data) => {
     if (err != null) {
       res.writeHead(500, { "Content-Type": "text/plain" });

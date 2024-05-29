@@ -1,7 +1,7 @@
 const http = require(`node:http`);
 const fs = require(`node:fs`);
-const readFiles = require(`./modules/readFiles.js`);
-const checkTypes = require(`./modules/checkTypes.js`);
+const readFiles = require(`./modules/reading/readFiles.js`);
+const checkTypes = require(`./modules/checking/checkTypes.js`);
 
 http
   .createServer((req, res) => {
