@@ -10,5 +10,4 @@ export default (obj) => {
   const jsonParsedObj = JSON.stringify(obj, null, 2);
 
   console.log(__dirname);
-  // fs.writeFile(`./src/json/`);
 };

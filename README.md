@@ -1,4 +1,3 @@
-
 ```
 gitTrainingWithServer                                  //
 ├─ favicon.ico                                         //
@@ -36,8 +35,6 @@ gitTrainingWithServer                                  //
    │  ├─ modules                                       //
    │  │  ├─ checking                                   //
    │  │  │  └─ checkTypes.js                           //
-   │  │  ├─ date                                       //
-   │  │  │  └─ date.js                                 //
    │  │  ├─ object                                     //
    │  │  │  └─ MimeTypeObject                          //
    │  │  │     └─ extensionAndMime.js                  //
@@ -52,11 +49,10 @@ gitTrainingWithServer                                  //
    │  │  │        └─ createPostSubmittedDataObj.js     //
    │  │  └─ writing                                    //
    │  │     └─ writingJson.js                          //
-<<<<<<< HEAD
-   │  └─ server.js                                     //
-=======
-   │  └─ server.cjs                                    //
->>>>>>> 1c91613 (init 'issue#5')
+   │  └─ server.mjs                                    //
+   ├─ share_modules                                    //
+   │  └─ date                                          //
+   │     └─ date.js                                    //
    └─ styles                                           //
       ├─ style.css                                     //
       └─ styles.css.ts                                 //
