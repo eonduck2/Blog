@@ -2,7 +2,8 @@ const http = require(`node:http`);
 const fs = require(`node:fs`);
 const readFiles = require(`./modules/reading/readFiles.js`);
 const checkTypes = require(`./modules/checking/checkTypes.js`);
-const createPostObj = require(`./modules/submit/methodPost/writeJson/createPostSubmittedDataObj.js`);
+const createPostObj = require(`./modules/submit/methodPost/createObj/createPostSubmittedDataObj.js`);
+const wirtingJson = require(`./modules/`);
 
 http
   .createServer((req, res) => {
