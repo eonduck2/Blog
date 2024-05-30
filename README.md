@@ -7,7 +7,7 @@ gitTrainingWithServer                                  //
 ├─ package.json                                        //
 ├─ public                                              //
 │  ├─ Gif                                              //
-│  ├─ HTML                                             //
+│  ├─ html                                             //
 │  │  └─ posted.html                                   //
 │  ├─ Images                                           //
 │  └─ index.html                                       //
@@ -23,28 +23,35 @@ gitTrainingWithServer                                  //
    │     │  └─ elementObject.js                        //
    │     ├─ datas                                      //
    │     │  └─ rootHtmlData.js                         //
+   │     ├─ date                                       //
+   │     │  └─ date.js                                 //
    │     ├─ event                                      //
    │     │  └─ clickForPosting.js                      //
    │     ├─ styles                                     //
    │     │  └─ eleStyleProperties.js                   //
    │     └─ template                                   //
    │        └─ indexHtmlTemplate.js                    //
+   ├─ json                                             //
    ├─ server                                           //
    │  ├─ modules                                       //
    │  │  ├─ checking                                   //
    │  │  │  └─ checkTypes.js                           //
+   │  │  ├─ date                                       //
+   │  │  │  └─ date.js                                 //
    │  │  ├─ object                                     //
    │  │  │  └─ MimeTypeObject                          //
    │  │  │     └─ extensionAndMime.js                  //
    │  │  ├─ reading                                    //
    │  │  │  └─ readFiles.js                            //
-   │  │  └─ submit                                     //
-   │  │     ├─ methodGet                               //
-   │  │     │  └─ writeJson                            //
-   │  │     │     └─ writingGetSubmittedDatas.js       //
-   │  │     └─ methodPost                              //
-   │  │        └─ writeJson                            //
-   │  │           └─ createPostSubmittedDataObj.js     //
+   │  │  ├─ submit                                     //
+   │  │  │  ├─ methodGet                               //
+   │  │  │  │  └─ writeJson                            //
+   │  │  │  │     └─ writingGetSubmittedDatas.js       //
+   │  │  │  └─ methodPost                              //
+   │  │  │     └─ createObj                            //
+   │  │  │        └─ createPostSubmittedDataObj.js     //
+   │  │  └─ writing                                    //
+   │  │     └─ writingJson.js                          //
    │  └─ server.cjs                                    //
    └─ styles                                           //
       ├─ style.css                                     //
