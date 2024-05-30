@@ -16,7 +16,6 @@ export default (obj) => {
   const fileName = obj.title;
   const jsonParsedObj = JSON.stringify(obj, null, 2);
 
-  console.log(fileName);
   fs.writeFile(
     `./src/json/${id.uniqueId()}${fileName}.json`,
     jsonParsedObj,
