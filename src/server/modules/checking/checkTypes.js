@@ -7,9 +7,10 @@ import extensionsAndMime from "../object/MimeTypeObject/extensionAndMime.js";
  * 
  * CHECKLIST: 24.05.29
  * 
- * NOTE: 1. 모듈로 정의된 key(extension):value(MIME-Type)을 이용해 객체 리턴
+ * NOTE: 1. 모듈로 정의된 key(extension) : value(MIME-Type)을 이용해 객체 리턴
   @param req 클라이언트의 요청 객체
 */
+
 export default (req) => {
   let url = req.url;
   let fileExtension = url.split(`.`)[1];

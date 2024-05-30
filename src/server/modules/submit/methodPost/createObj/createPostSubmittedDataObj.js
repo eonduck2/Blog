@@ -13,7 +13,6 @@ import fs from "fs";
  */
 
 export default (req, callback) => {
-  console.log(req.url);
   if (req.url == `/public/html/posted.html`) {
     let body = "";
     req.on(`data`, (chunk) => {

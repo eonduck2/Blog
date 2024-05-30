@@ -6,9 +6,9 @@
  * CHECKLIST: 24.05.28
  *
  * NOTE: 모달(글 쓰기) 버튼 클릭 시, 모달 창 팝업
+ *
  */
 
-// FIXME: ./public/html/posted.html
 export default Object = {
   rootHtml: {
     rootHtmlData: `
