@@ -10,7 +10,7 @@
 
 // FIXME: ./public/html/posted.html
 export default Object = {
-  html: {
+  rootHtml: {
     rootHtmlData: `
     <div id="modal">
       <div id="x-icon">
