@@ -26,6 +26,8 @@ export default (req) => {
         path: path,
         contentType: extensionsAndMime[key],
       };
+    } else {
+      return;
     }
   }
 };
