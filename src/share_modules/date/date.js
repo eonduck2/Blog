@@ -1,3 +1,16 @@
+/**
+ * TYPE[OBJECT]
+ *
+ * STATUS[O] - 현재 상태
+ *
+ * CHECKLIST: 24.05.30/02:39 PM 1차 단위 테스트 완료
+ *
+ * FIXME: 2자리 padStarting 필요
+ *
+ * NOTE: 1. 현재 시간과 관련된 한국어 개정 모듈
+ * @param dateObj 1차적으로 new Date() 생성자 함수를 인자로 보내거나 new Date()를 2차 가공 객체를 인자로 보내야함
+ */
+
 export default class AboutDates {
   constructor(dateObj) {
     this.year = dateObj.getFullYear();

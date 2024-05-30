@@ -52,7 +52,11 @@ gitTrainingWithServer                                  //
    │  │  │        └─ createPostSubmittedDataObj.js     //
    │  │  └─ writing                                    //
    │  │     └─ writingJson.js                          //
+<<<<<<< HEAD
    │  └─ server.js                                     //
+=======
+   │  └─ server.cjs                                    //
+>>>>>>> 1c91613 (init 'issue#5')
    └─ styles                                           //
       ├─ style.css                                     //
       └─ styles.css.ts                                 //
