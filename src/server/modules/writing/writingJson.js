@@ -7,5 +7,7 @@ const fs = require(`node:fs`);
  */
 
 const writingJson = (obj) => {
-  const jsonParsedObj = JSON.parse(obj);
+  const jsonParsedObj = JSON.stringify(obj, null, 2);
 };
+
+module.exports = writingJson;
