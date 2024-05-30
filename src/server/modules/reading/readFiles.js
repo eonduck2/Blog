@@ -1,4 +1,4 @@
-const fs = require(`node:fs`);
+import fs from "fs";
 
 /** 
  * STATUS[O]: 현재 상태
@@ -10,7 +10,7 @@ const fs = require(`node:fs`);
  * NOTE: 1. 파일 읽고, MIME타입에 따른 처리
   @param contentObj res, path, content-type을 property로 갖는 객체
 */
-const readFiles = (contentObj, res) => {
+export default (contentObj, res) => {
   let { path, contentType } = contentObj;
 
   fs.readFile(path, (err, data) => {
@@ -23,5 +23,3 @@ const readFiles = (contentObj, res) => {
     }
   });
 };
-
-module.exports = readFiles;

@@ -8,7 +8,7 @@
  * NOTE: 1. 확장자 명과 MIME 타입을 정의해두는 객체 모듈
  */
 
-const extensionsAndMime = {
+export default Object = {
   "/": `text/html`,
   ico: `image/vnd.microsoft.icon`,
   css: `text/css`,
@@ -16,5 +16,3 @@ const extensionsAndMime = {
   js: `text/javascript`,
   html: `text/html`,
 };
-
-module.exports = extensionsAndMime;

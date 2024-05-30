@@ -1,4 +1,4 @@
-const fs = require(`node:fs`);
+import fs from "fs";
 
 /**
  * TYPE[FUNCTION]
@@ -12,7 +12,7 @@ const fs = require(`node:fs`);
  * @param callback 함수 마지막에 실행되면서 객체를 리턴해주는 콜백 함수
  */
 
-const createPostJsonObj = (req, callback) => {
+export default (req, callback) => {
   if (req.url == `/submit`) {
     let body = "";
     req.on(`data`, (chunk) => {
@@ -29,5 +29,3 @@ const createPostJsonObj = (req, callback) => {
     });
   }
 };
-
-module.exports = createPostJsonObj;

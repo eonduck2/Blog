@@ -52,7 +52,7 @@ gitTrainingWithServer                                  //
    │  │  │        └─ createPostSubmittedDataObj.js     //
    │  │  └─ writing                                    //
    │  │     └─ writingJson.js                          //
-   │  └─ server.cjs                                    //
+   │  └─ server.js                                     //
    └─ styles                                           //
       ├─ style.css                                     //
       └─ styles.css.ts                                 //
