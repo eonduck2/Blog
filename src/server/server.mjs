@@ -11,6 +11,7 @@ http
     } else if (req.method == `POST`) {
       createPostObj(req, (createdJsonObj) => {
         writingJson(createdJsonObj);
+        readFiles(checkTypes(req), res);
       });
     }
   })

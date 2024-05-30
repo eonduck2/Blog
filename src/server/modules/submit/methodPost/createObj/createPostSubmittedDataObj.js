@@ -13,7 +13,8 @@ import fs from "fs";
  */
 
 export default (req, callback) => {
-  if (req.url == `./html/posted.html`) {
+  console.log(req.url);
+  if (req.url == `/public/html/posted.html`) {
     let body = "";
     req.on(`data`, (chunk) => {
       body += chunk.toString();

@@ -1,14 +1,13 @@
 ```
-gitTrainingWithServer                                  //
+blog                                                   //
 ├─ favicon.ico                                         //
 ├─ next.config.js                                      //
 ├─ package-lock.json                                   //
 ├─ package.json                                        //
 ├─ public                                              //
-│  ├─ Gif                                              //
 │  ├─ html                                             //
 │  │  └─ posted.html                                   //
-│  ├─ Images                                           //
+│  ├─ images                                           //
 │  └─ index.html                                       //
 ├─ README.md                                           //
 └─ src                                                 //
@@ -22,17 +21,15 @@ gitTrainingWithServer                                  //
    │     │  └─ elementObject.js                        //
    │     ├─ datas                                      //
    │     │  └─ rootHtmlData.js                         //
-   │     ├─ date                                       //
-   │     │  └─ date.js                                 //
    │     ├─ event                                      //
    │     │  └─ clickForPosting.js                      //
    │     ├─ styles                                     //
    │     │  └─ eleStyleProperties.js                   //
    │     └─ template                                   //
    │        └─ indexHtmlTemplate.js                    //
-   ├─ json                                             //
    ├─ server                                           //
    │  ├─ modules                                       //
+   │  │  ├─ array                                      //
    │  │  ├─ checking                                   //
    │  │  │  └─ checkTypes.js                           //
    │  │  ├─ object                                     //
