@@ -8,6 +8,7 @@
  * NOTE: 모달(글 쓰기) 버튼 클릭 시, 모달 창 팝업
  */
 
+// FIXME: ./public/html/posted.html
 export default Object = {
   html: {
     rootHtmlData: `
@@ -15,7 +16,7 @@ export default Object = {
       <div id="x-icon">
         <i class="fas fa-x"></i>
       </div>
-      <form action="./public/html/posted.html" method="post">
+      <form action="/submit" method="post">
         <input type="text" name="title" id="" />
         <textarea name="content" id="" cols="30" rows="10"></textarea>
         <button type="submit">글 작성</button>
