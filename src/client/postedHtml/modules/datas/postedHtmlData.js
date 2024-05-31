@@ -1,5 +1,6 @@
 import jsonDirList from "../../../modules/array/createdJsonDirList.js";
 // ${this.jsonFileList().map((title) => `<li>${title}</li>`)}
+console.log(jsonDirList);
 export default Object = {
   postedHtml: {
     jsonFileArray() {

@@ -18,7 +18,7 @@ export default (path) => {
     }
     fs.writeFile(
       `./src/client/modules/array/createdJsonDirList.js`,
-      JSON.stringify(fileList, null, 2),
+      `export default ${JSON.stringify(fileList, null, 2)}`,
       (err) => {
         if (err) {
           throw new Error(`제이슨 디렉토리 리스트 업 에러`);
