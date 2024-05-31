@@ -22,7 +22,7 @@ import elStyles from "./modules/styles/eleStyleProperties.js";
  */
 window.onload = () => {
   indexHtmlTemplate();
-  document.getElementById(`root`).innerHTML = datas.html.rootHtmlData;
+  document.getElementById(`root`).innerHTML = datas.rootHtml.rootHtmlData;
   elDynamicControl(document.getElementById(`modal`), elStyles.modal);
   indexFunc();
 };

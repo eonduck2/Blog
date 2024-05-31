@@ -13,20 +13,24 @@ blog                                                   //
 └─ src                                                 //
    ├─ client                                           //
    │  ├─ app.mjs                                       //
-   │  └─ modules                                       //
-   │     ├─ allAboutElement                            //
-   │     │  ├─ appendElement.js                        //
-   │     │  ├─ createElement.js                        //
-   │     │  ├─ elementDynamicControl.js                //
-   │     │  └─ elementObject.js                        //
-   │     ├─ datas                                      //
-   │     │  └─ rootHtmlData.js                         //
-   │     ├─ event                                      //
-   │     │  └─ clickForPosting.js                      //
-   │     ├─ styles                                     //
-   │     │  └─ eleStyleProperties.js                   //
-   │     └─ template                                   //
-   │        └─ indexHtmlTemplate.js                    //
+   │  ├─ modules                                       //
+   │  │  ├─ allAboutElement                            //
+   │  │  │  ├─ appendElement.js                        //
+   │  │  │  ├─ createElement.js                        //
+   │  │  │  ├─ elementDynamicControl.js                //
+   │  │  │  └─ elementObject.js                        //
+   │  │  ├─ datas                                      //
+   │  │  │  └─ rootHtmlData.js                         //
+   │  │  ├─ event                                      //
+   │  │  │  └─ clickForPosting.js                      //
+   │  │  ├─ styles                                     //
+   │  │  │  └─ eleStyleProperties.js                   //
+   │  │  └─ template                                   //
+   │  │     └─ indexHtmlTemplate.js                    //
+   │  └─ postedHtml                                    //
+   │     ├─ app.mjs                                    //
+   │     └─ modules                                    //
+   ├─ json                                             //
    ├─ server                                           //
    │  ├─ modules                                       //
    │  │  ├─ array                                      //
