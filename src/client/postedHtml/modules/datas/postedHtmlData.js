@@ -1,11 +1,12 @@
 import jsonDirList from "../../../modules/array/createdJsonDirList.js";
 // ${this.jsonFileList().map((title) => `<li>${title}</li>`)}
-console.log(jsonDirList);
+// ${this.postedHtml.jsonFileArray()}
+jsonDirList.forEach((element) => {
+  console.log(element);
+});
 export default Object = {
   postedHtml: {
-    jsonFileArray() {
-      console.log(jsonDirList);
-    },
+    jsonFileArray() {},
     rootHtmlData: `
         <div id="modal">
           <div id="x-icon">
@@ -29,7 +30,6 @@ export default Object = {
         <main>
           <aside id="postings" class="">
             <ul>
-              ${this.postedHtml.jsonFileArray()}
             </ul>
           </aside>
           <section>
