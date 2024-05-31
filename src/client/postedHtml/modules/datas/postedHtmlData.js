@@ -30,6 +30,11 @@ export default Object = {
         <main>
           <aside id="postings" class="">
             <ul>
+              ${jsonDirList
+                .map((fileName) => {
+                  return `<li>${fileName}</li>`;
+                })
+                .join("")}
             </ul>
           </aside>
           <section>
