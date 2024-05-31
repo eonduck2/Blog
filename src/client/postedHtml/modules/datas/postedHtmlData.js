@@ -1,17 +1,6 @@
-// import fs from "fs";
-
-// FIXME: 브라우저 환경에서 node 모듈인 fs 임포트
-// IMPORTANT: either "/", "./", or "../".
 export default Object = {
   postedHtml: {
-    jsonFileList() {
-      fs.readdir("./src/json", (err, fileList) => {
-        if (err) {
-          throw new Error(`디렉토리 리딩 에러`);
-        }
-        return fileList;
-      });
-    },
+    jsonFileArray() {},
     rootHtmlData: `
         <div id="modal">
           <div id="x-icon">
