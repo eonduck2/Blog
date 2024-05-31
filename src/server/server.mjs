@@ -3,6 +3,18 @@ import readFiles from "./modules/reading/readFiles.js";
 import checkTypes from "./modules/checking/checkTypes.js";
 import createPostObj from "./modules/submit/methodPost/createObj/createPostSubmittedDataObj.js";
 import writingJson from "./modules/writing/writingJson.js";
+import readDirs from "./modules/reading/readDirs.js";
+
+import fs from "fs";
+
+export default (path) => {
+  fs.readdir(path, (err, fileList) => {
+    if (err) {
+      throw new Error(`디렉토리 리딩 에러`);
+    }
+    console.log(fileList);
+  });
+};
 
 http
   .createServer((req, res) => {
