@@ -3,7 +3,7 @@ import readFiles from "./modules/reading/readFiles.js";
 import checkTypes from "./modules/checking/checkTypes.js";
 import createPostObj from "./modules/submit/methodPost/createObj/createPostSubmittedDataObj.js";
 import writingJson from "./modules/writing/writingJson.js";
-import readDirs from "./modules/reading/readDirs.js";
+import readDirAndWrite from "./modules/reading/readJsonDirAndWriteFile.js";
 
 http
   .createServer((req, res) => {
@@ -13,6 +13,7 @@ http
       createPostObj(req, (createdJsonObj) => {
         writingJson(createdJsonObj);
         readFiles(checkTypes(req), res);
+        readDirAndWrite(`./src/json`);
       });
     }
   })
