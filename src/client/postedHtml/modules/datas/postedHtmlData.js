@@ -1,12 +1,15 @@
 import jsonDirList from "../../../modules/array/createdJsonDirList.js";
-// ${this.jsonFileList().map((title) => `<li>${title}</li>`)}
-// ${this.postedHtml.jsonFileArray()}
-jsonDirList.forEach((element) => {
-  console.log(element);
-});
+/**
+ * TYPE[OBJECT]
+ *
+ * STATUS[O] - 현재 상태
+ *
+ * CHECKLIST: 24.05.31/11:08 AM 구현
+ *
+ * NOTE: 1. posted.html 템플릿
+ */
 export default Object = {
   postedHtml: {
-    jsonFileArray() {},
     rootHtmlData: `
         <div id="modal">
           <div id="x-icon">
