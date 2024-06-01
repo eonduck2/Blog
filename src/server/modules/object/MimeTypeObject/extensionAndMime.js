@@ -10,7 +10,7 @@
 
 export default Object = {
   "/": `text/html`,
-  "../../public/html/posted.html": `text/html`,
+  "/public/index.html": `text/html`,
   ico: `image/vnd.microsoft.icon`,
   css: `text/css`,
   mjs: `text/javascript`,
