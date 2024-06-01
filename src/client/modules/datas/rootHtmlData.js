@@ -1,4 +1,5 @@
 import jsonDirList from "../array/createdJsonDirList.js";
+import modalStyle from "../styles/CSS/styles.js";
 
 /**
  * TYPE[OBJECT]
@@ -17,7 +18,7 @@ export default Object = {
           <div id="x-icon">
             <i class="fas fa-x"></i>
           </div>
-          <form action="/" method="post" onsubmit="return false" id="posting-form">
+          <form class ="${modalStyle}" action="/" method="post" onsubmit="return false" id="posting-form">
             <input type="text" name="title" id="title" />
             <textarea name="content" id="" cols="30" rows="10"></textarea>
           </form>
