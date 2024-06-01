@@ -6,6 +6,7 @@ import modalForPosting from "./modules/event/clickForPosting.js";
 import indexHtmlTemplate from "./modules/template/indexHtmlTemplate.js";
 import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
+import clickForFormSubmit from "./modules/event/clickForFormSubmit.js";
 
 /**
  *  IMPORTANT
