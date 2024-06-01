@@ -6,7 +6,6 @@ import modalForPosting from "./modules/event/clickForPosting.js";
 import indexHtmlTemplate from "./modules/template/indexHtmlTemplate.js";
 import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
-import clickForFormSubmit from "./modules/event/clickForFormSubmit.js";
 
 /**
  *  IMPORTANT
@@ -24,11 +23,10 @@ import clickForFormSubmit from "./modules/event/clickForFormSubmit.js";
 window.onload = () => {
   indexHtmlTemplate();
   document.getElementById(`root`).innerHTML = datas.rootHtml.rootHtmlData;
-  elDynamicControl(document.getElementById(`modal`), elStyles.modal);
+  // elDynamicControl(document.getElementById(`modal`), elStyles.modal);
   indexFunc();
 };
 
 const indexFunc = () => {
   modalForPosting();
-  clickForFormSubmit();
 };

@@ -1,4 +1,7 @@
-import elStyles from "../allAboutElement/elementDynamicControl.js";
+import htmlData from "../datas/rootHtmlData.js";
+import clickForFormSubmit from "../event/clickForFormSubmit.js";
+import elDynamicControl from "../allAboutElement/elementDynamicControl.js";
+import elStyles from "../styles/eleStyleProperties.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -12,13 +15,11 @@ import elStyles from "../allAboutElement/elementDynamicControl.js";
 */
 
 export default () => {
-  const $postingBtn = document.querySelector(`#root button:first-child`);
+  const $postingBtn = document.getElementById(`posting-button`);
   const $modal = document.getElementById(`modal`);
   $postingBtn.onclick = () => {
-    const modalStyling = {
-      display: `flex`,
-    };
-
-    elStyles($modal, modalStyling);
+    elDynamicControl($modal, elStyles.modal);
+    $modal.innerHTML = htmlData.rootHtml.modalData;
+    clickForFormSubmit();
   };
 };

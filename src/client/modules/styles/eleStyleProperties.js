@@ -14,6 +14,5 @@ export default Object = {
     width: `25rem`,
     height: `25rem`,
     backgroundColor: `red`,
-    display: `none`,
   },
 };

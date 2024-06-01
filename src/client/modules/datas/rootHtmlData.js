@@ -13,17 +13,18 @@ import jsonDirList from "../array/createdJsonDirList.js";
 
 export default Object = {
   rootHtml: {
-    rootHtmlData: `
-        <div id="modal">
+    modalData: `
           <div id="x-icon">
             <i class="fas fa-x"></i>
           </div>
           <form action="/" method="post" onsubmit="return false" id="posting-form">
-            <input type="text" name="title" id="" />
+            <input type="text" name="title" id="title" />
             <textarea name="content" id="" cols="30" rows="10"></textarea>
           </form>
-          <button id="submit-btn">작성하기</button>
-        </div>
+          <button id="submit-btn">작성하기</button>`,
+
+    rootHtmlData: `
+        <div id="modal"></div>
     
         <div>
           <div>

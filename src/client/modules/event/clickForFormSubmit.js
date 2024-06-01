@@ -11,4 +11,13 @@
 export default () => {
   const postingForm = document.getElementById(`posting-form`);
   const submitBtn = document.getElementById(`submit-btn`);
+  const title = document.getElementById(`title`);
+
+  submitBtn.onclick = () => {
+    if (title.value != "") {
+      postingForm.submit();
+    } else {
+      title.placeholder = `글 제목을 입력해주세요`;
+    }
+  };
 };
