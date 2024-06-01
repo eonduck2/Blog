@@ -18,7 +18,7 @@ export default Object = {
           <div id="x-icon">
             <i class="fas fa-x"></i>
           </div>
-          <form action="/" method="post" onsubmit="return false">
+          <form action="/" method="post" onsubmit="return false" id="posting-form">
             <input type="text" name="title" id="" />
             <textarea name="content" id="" cols="30" rows="10"></textarea>
           </form>

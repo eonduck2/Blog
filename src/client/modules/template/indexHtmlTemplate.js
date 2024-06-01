@@ -9,7 +9,7 @@
   @param NoParam
 */
 export default () => {
-  let root = document.getElementById(`root`);
+  const root = document.getElementById(`root`);
 
   if (root != null) {
     return;

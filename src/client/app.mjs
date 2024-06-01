@@ -30,4 +30,5 @@ window.onload = () => {
 
 const indexFunc = () => {
   modalForPosting();
+  clickForFormSubmit();
 };
