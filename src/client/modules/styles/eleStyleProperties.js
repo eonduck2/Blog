@@ -9,7 +9,7 @@
 
   @param NoParam
 */
-export default Object = {
+export default {
   body: {
     width: `100vw`,
     height: `100vh`,

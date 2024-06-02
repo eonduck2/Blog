@@ -7,7 +7,6 @@ import readDirAndWrite from "./modules/reading/readJsonDirAndWriteFile.js";
 
 http
   .createServer((req, res) => {
-    console.log(req.url);
     if (req.method == `GET`) {
       readFiles(checkTypes(req), res);
     } else if (req.method == `POST`) {

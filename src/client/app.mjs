@@ -6,6 +6,7 @@ import modalForPosting from "./modules/event/clickForPosting.js";
 import indexHtmlTemplate from "./modules/template/indexHtmlTemplate.js";
 import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
+import objArrForStyle from "./modules/styles/objArrForStyle.js";
 
 /**
  *  IMPORTANT
@@ -28,5 +29,5 @@ window.onload = () => {
 
 const indexFunc = () => {
   modalForPosting();
-  objArrForStyle(() => {});
+  objArrForStyle(elStyles, () => {});
 };

@@ -11,7 +11,7 @@ import jsonDirList from "../array/createdJsonDirList.js";
  *
  */
 
-export default Object = {
+export default {
   rootHtml: {
     modalData: `
           <div id="x-icon">

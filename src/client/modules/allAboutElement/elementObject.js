@@ -8,7 +8,7 @@
  * NOTE: 특정 Element의 태그 이름과 Class, Id가 Property로 담겨있는 Object
 */
 
-export default Object = {
+export default {
   parentElements: {
     root: document.getElementById(`root`),
   },
