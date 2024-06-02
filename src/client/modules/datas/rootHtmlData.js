@@ -24,29 +24,31 @@ export default {
           <button id="submit-btn">작성하기</button>`,
 
     rootHtmlData: `    
-        <div>
+        <header id="content-header">
           <div>
-              <header>
-                  <div>
-                      <button id="posting-button">팝업</button>
-                  </div>
-              </header>
+            <button id="posting-button">팝업</button>
           </div>
-        <main>
-          <aside id="posting-list" class="">
-            <ul>
+        </header>
+        <main id="content-main">
+          <aside id="posting-list">
+            <div id="posting-title-container">
+              <span id="posting-title">📋 작성 글 목록</span>
+            </div>
+            <ul id="content-ul">
               ${jsonDirList
                 .map((fileName) => {
-                  return `<li>${fileName.substr(10).replace(".json", "")}</li>`;
+                  return `<li style ="margin:7px; word-break: break-all;">📒 ${fileName
+                    .substr(10)
+                    .replace(".json", "")}</li>`;
                 })
                 .join("")}
             </ul>
           </aside>
-          <section>
+          <section id="content-section">
             <div></div>
             <div></div>
           </section>
         </main>
-      </div>`,
+      `,
   },
 };
