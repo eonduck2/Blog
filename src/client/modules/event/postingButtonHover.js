@@ -17,6 +17,7 @@ export default () => {
 
   const writingBtnStyles = {
     backgroundColor: `rgb(23, 112, 207)`,
+    color: `rgb(190, 191, 189)`,
   };
 
   writingBtn.onmouseover = () => {

@@ -45,6 +45,9 @@ export default {
     backgroundColor: `RGB(52, 128, 235)`,
     outline: `none`,
     border: `none`,
+    borderRadius: `7px`,
+    color: `white`,
+    cursor: `pointer`,
   },
 
   "content-main": {
