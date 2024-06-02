@@ -29,5 +29,13 @@ window.onload = () => {
 
 const indexFunc = () => {
   modalForPosting();
-  objArrForStyle(elStyles, (idArr) => {});
+  objArrForStyle(elStyles, (elementArr) => {
+    elementArr.forEach((elementId) => {
+      console.log(document.getElementById(elementId));
+      console.log(Object.entries(elStyles[elementId]));
+      // elDynamicControl();
+      // document.getElementById(elementId),
+      // Object.entries(elStyles[elementId])
+    });
+  });
 };
