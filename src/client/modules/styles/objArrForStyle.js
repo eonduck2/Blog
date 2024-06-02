@@ -11,5 +11,5 @@
 */
 
 export default (obj, callback) => {
-  //   console.log(Object.keys(obj.body));
+  callback(Object.keys(obj).filter((id) => document.getElementById(id)));
 };

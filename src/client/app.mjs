@@ -29,5 +29,5 @@ window.onload = () => {
 
 const indexFunc = () => {
   modalForPosting();
-  objArrForStyle(elStyles, () => {});
+  objArrForStyle(elStyles, (idArr) => {});
 };
