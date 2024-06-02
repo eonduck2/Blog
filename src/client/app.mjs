@@ -31,11 +31,7 @@ const indexFunc = () => {
   modalForPosting();
   objArrForStyle(elStyles, (elementArr) => {
     elementArr.forEach((elementId) => {
-      console.log(document.getElementById(elementId));
-      console.log(Object.entries(elStyles[elementId]));
-      // elDynamicControl();
-      // document.getElementById(elementId),
-      // Object.entries(elStyles[elementId])
+      elDynamicControl(document.getElementById(elementId), elStyles[elementId]);
     });
   });
 };
