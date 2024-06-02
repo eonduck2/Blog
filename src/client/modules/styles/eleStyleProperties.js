@@ -10,6 +10,12 @@
   @param NoParam
 */
 export default Object = {
+  body: {
+    width: `100vw`,
+    height: `100vh`,
+    backgroundColor: `blue`,
+  },
+
   modal: {
     width: `25rem`,
     height: `25rem`,
