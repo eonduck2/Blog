@@ -5,7 +5,7 @@
  * 
  * CHECKLIST: 24.05.28
  * 
- * NOTE: index.html 최초 응답 시, div id ="root" 없으면 추가
+ * NOTE: 특정 id의 스타일링 값을 지정
 
   @param NoParam
 */
