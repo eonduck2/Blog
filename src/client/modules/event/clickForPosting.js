@@ -2,6 +2,7 @@ import htmlData from "../datas/rootHtmlData.js";
 import clickForFormSubmit from "../event/clickForFormSubmit.js";
 import elDynamicControl from "../allAboutElement/elementDynamicControl.js";
 import elStyles from "../styles/eleStyleProperties.js";
+import elPrepend from "../allAboutElement/prependElement.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -17,7 +18,9 @@ import elStyles from "../styles/eleStyleProperties.js";
 export default () => {
   const $postingBtn = document.getElementById(`posting-button`);
   const $modal = document.getElementById(`modal`);
+  const $body = document.getElementById(`body`);
   $postingBtn.onclick = () => {
+    elPrepend($body, $modal);
     elDynamicControl($modal, elStyles.modal);
     $modal.innerHTML = htmlData.rootHtml.modalData;
     clickForFormSubmit();
