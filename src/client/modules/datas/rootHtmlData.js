@@ -23,9 +23,7 @@ export default {
           </form>
           <button id="submit-btn">작성하기</button>`,
 
-    rootHtmlData: `
-        <div id="modal"></div>
-    
+    rootHtmlData: `    
         <div>
           <div>
               <header>
