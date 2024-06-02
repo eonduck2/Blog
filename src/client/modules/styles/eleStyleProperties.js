@@ -34,6 +34,17 @@ export default {
     width: "100%",
     height: "10%",
     backgroundColor: `black`,
+    display: `flex`,
+    justifyContent: `center`,
+    alignItems: `center`,
+  },
+
+  "posting-button": {
+    width: `50%`,
+    height: `50%`,
+    backgroundColor: `RGB(52, 128, 235)`,
+    outline: `none`,
+    border: `none`,
   },
 
   "content-main": {
@@ -79,6 +90,23 @@ export default {
   "content-section": {
     width: "65%",
     height: "95%",
+    display: `flex`,
+    flexDirection: `column`,
     backgroundColor: `aqua`,
+    gap: `40px`,
+    justifyContent: `center`,
+    alignItems: `center`,
+  },
+
+  "content-section-title": {
+    width: "80%",
+    height: "10%",
+    backgroundColor: `black`,
+  },
+
+  "content-section-content": {
+    width: "80%",
+    height: "80%",
+    backgroundColor: `purple`,
   },
 };

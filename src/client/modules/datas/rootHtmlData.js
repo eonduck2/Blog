@@ -25,9 +25,7 @@ export default {
 
     rootHtmlData: `    
         <header id="content-header">
-          <div>
-            <button id="posting-button">팝업</button>
-          </div>
+            <button id="posting-button">글 쓰기</button>
         </header>
         <main id="content-main">
           <aside id="posting-list">
@@ -45,8 +43,8 @@ export default {
             </ul>
           </aside>
           <section id="content-section">
-            <div></div>
-            <div></div>
+            <div id="content-section-title"></div>
+            <div id="content-section-content"></div>
           </section>
         </main>
       `,
