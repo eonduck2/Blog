@@ -165,7 +165,7 @@ export default {
   },
 
   "content-ul": {
-    width: `100%`,
+    // width: `100%`,
     listStyleType: `none`,
     fontSize: `20px`,
     fontWeight: 400,
