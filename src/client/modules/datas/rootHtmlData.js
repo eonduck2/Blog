@@ -16,7 +16,9 @@ export default {
     modalData: `
         <div id ="modal">
           <div id="x-icon-container">
-            <i class="fas fa-x" id="x-icon"></i>
+            <div id="icon-end-container">
+              <i class="fas fa-x" id="x-icon"></i>
+            </div>
           </div>
           <form  action="/" method="post" onsubmit="return false" id="posting-form">
             <input type="text" name="title" id="title" />

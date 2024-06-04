@@ -49,8 +49,15 @@ export default {
     justifyContent: `flex-end`,
   },
 
+  "icon-end-container": {
+    width: `10%`,
+    height: `100%`,
+    display: `flex`,
+    justifyContent: `center`,
+    alignItems: `center`,
+  },
+
   "x-icon": {
-    margin: `20px`,
     fontSize: `25px`,
   },
 
@@ -90,7 +97,7 @@ export default {
   },
 
   "submit-btn": {
-    width: `80%`,
+    width: `81%`,
     height: `40%`,
     outline: `none`,
     color: `RGB(87, 87, 87)`,
