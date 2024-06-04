@@ -5,6 +5,7 @@ import objArrForStyle from "../styles/objArrForStyle.js";
 import elStyles from "../styles/eleStyleProperties.js";
 import elPrepend from "../allAboutElement/prependElement.js";
 import elCreate from "../allAboutElement/createElement.js";
+import modalClose from "./modalCloser.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -38,6 +39,7 @@ export default () => {
         );
       });
     });
+    modalClose();
     clickForFormSubmit();
   };
 };

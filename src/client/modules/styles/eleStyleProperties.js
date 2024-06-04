@@ -59,6 +59,7 @@ export default {
 
   "x-icon": {
     fontSize: `25px`,
+    cursor: `pointer`,
   },
 
   "posting-form": {
