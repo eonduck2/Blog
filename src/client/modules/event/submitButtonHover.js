@@ -12,11 +12,10 @@ import eleStyleProperties from "../styles/eleStyleProperties.js";
 */
 export default () => {
   const $submitBtn = document.getElementById(`submit-btn`);
-  console.log($submitBtn);
 
   const submitHoverBtnStyles = {
     backgroundColor: `rgb(207, 207, 207)`,
-    color: `rgb(102, 102, 102)`,
+    color: `rgb(82, 82, 82)`,
   };
 
   $submitBtn.onmouseover = () => {

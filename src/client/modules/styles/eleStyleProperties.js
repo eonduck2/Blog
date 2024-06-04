@@ -103,7 +103,7 @@ export default {
     width: `81%`,
     height: `40%`,
     outline: `none`,
-    color: `RGB(87, 87, 87)`,
+    color: `RGB(36, 36, 36)`,
     backgroundColor: `white`,
     border: `2px solid black`,
     borderRadius: `7px`,
