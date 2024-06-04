@@ -18,13 +18,20 @@ import elCreate from "../allAboutElement/createElement.js";
 
 export default () => {
   const $postingBtn = document.getElementById(`posting-button`);
-  const createdModal = elCreate({ element: `div`, className: "", id: `modal` });
+  const createModalContainer = elCreate({
+    element: `div`,
+    className: "",
+    id: `modal-container`,
+  });
+  // const createdModal = elCreate({ element: `div`, className: "", id: `modal` });
   const $root = document.getElementById(`root`);
   $postingBtn.onclick = () => {
-    elPrepend($root, createdModal);
+    elPrepend($root, createModalContainer);
+    const $modal_container = document.getElementById(`modal-container`);
+    elDynamicControl($modal_container, elStyles["modal-container"]);
+    $modal_container.innerHTML = htmlData.rootHtml.modalData;
     const $modal = document.getElementById(`modal`);
     elDynamicControl($modal, elStyles.modal);
-    $modal.innerHTML = htmlData.rootHtml.modalData;
     clickForFormSubmit();
   };
 };

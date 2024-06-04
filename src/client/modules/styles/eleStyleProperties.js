@@ -22,7 +22,14 @@ export default {
     display: `flex`,
     flexDirection: `column`,
     alignItems: `center`,
-    position: "relative",
+    position: `relative`,
+  },
+
+  "modal-container": {
+    width: `100vw`,
+    position: `fixed`,
+    height: `100vh`,
+    backgroundColor: `rgb(120, 120, 120, 0.7)`,
   },
 
   modal: {

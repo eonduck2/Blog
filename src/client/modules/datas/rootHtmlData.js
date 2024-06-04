@@ -14,6 +14,7 @@ import jsonDirList from "../array/createdJsonDirList.js";
 export default {
   rootHtml: {
     modalData: `
+        <div id ="modal">
           <div id="x-icon">
             <i class="fas fa-x"></i>
           </div>
@@ -21,7 +22,8 @@ export default {
             <input type="text" name="title" id="title" />
             <textarea name="content" id="" cols="30" rows="10"></textarea>
           </form>
-          <button id="submit-btn">작성하기</button>`,
+          <button id="submit-btn">작성하기</button>
+        </div>`,
 
     rootHtmlData: `    
         <header id="content-header">
