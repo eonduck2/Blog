@@ -1,6 +1,7 @@
 import htmlData from "../datas/rootHtmlData.js";
 import clickForFormSubmit from "../event/clickForFormSubmit.js";
 import elDynamicControl from "../allAboutElement/elementDynamicControl.js";
+import objArrForStyle from "../styles/objArrForStyle.js";
 import elStyles from "../styles/eleStyleProperties.js";
 import elPrepend from "../allAboutElement/prependElement.js";
 import elCreate from "../allAboutElement/createElement.js";
@@ -28,10 +29,15 @@ export default () => {
   $postingBtn.onclick = () => {
     elPrepend($root, createModalContainer);
     const $modal_container = document.getElementById(`modal-container`);
-    elDynamicControl($modal_container, elStyles["modal-container"]);
     $modal_container.innerHTML = htmlData.rootHtml.modalData;
-    const $modal = document.getElementById(`modal`);
-    elDynamicControl($modal, elStyles.modal);
+    objArrForStyle(elStyles, (elementArr) => {
+      elementArr.forEach((elementId) => {
+        elDynamicControl(
+          document.getElementById(elementId),
+          elStyles[elementId]
+        );
+      });
+    });
     clickForFormSubmit();
   };
 };

@@ -42,6 +42,13 @@ export default {
     transform: `translate(-50%, -50%)`,
   },
 
+  "x-icon": {
+    width: `100%`,
+    display: `flex`,
+    justifyContent: `center`,
+    backgroundColor: `red`,
+  },
+
   "content-header": {
     width: "100%",
     height: "10%",
