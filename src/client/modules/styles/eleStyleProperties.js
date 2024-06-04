@@ -22,12 +22,17 @@ export default {
     display: `flex`,
     flexDirection: `column`,
     alignItems: `center`,
+    position: "relative",
   },
 
   modal: {
-    width: `25rem`,
-    height: `25rem`,
-    backgroundColor: `red`,
+    width: `50%`,
+    height: `90%`,
+    backgroundColor: `white`,
+    position: `fixed`,
+    top: `50%`,
+    left: `50%`,
+    transform: `translate(-50%, -50%)`,
   },
 
   "content-header": {
