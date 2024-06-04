@@ -6,6 +6,7 @@ import elStyles from "../styles/eleStyleProperties.js";
 import elPrepend from "../allAboutElement/prependElement.js";
 import elCreate from "../allAboutElement/createElement.js";
 import modalClose from "./modalCloser.js";
+import postingButtonHover from "./submitButtonHover.js";
 
 /** 
  * TYPE[FUNCTION]
