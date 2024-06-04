@@ -42,11 +42,65 @@ export default {
     transform: `translate(-50%, -50%)`,
   },
 
-  "x-icon": {
+  "x-icon-container": {
     width: `100%`,
+    height: `10%`,
+    display: `flex`,
+    justifyContent: `flex-end`,
+  },
+
+  "x-icon": {
+    margin: `20px`,
+    fontSize: `25px`,
+  },
+
+  "posting-form": {
+    width: `100%`,
+    height: `70%`,
+    display: `flex`,
+    flexDirection: `column`,
+    justifyContent: `center`,
+    alignItems: `center`,
+    gap: `20px`,
+  },
+
+  title: {
+    width: `80%`,
+    height: `10%`,
+    outline: `none`,
+    border: `2px solid black`,
+    borderRadius: `7px`,
+  },
+
+  content: {
+    width: `80%`,
+    height: `80%`,
+    outline: `none`,
+    border: `2px solid black`,
+    borderRadius: `7px`,
+    resize: `none`,
+  },
+
+  "submit-btn-container": {
+    width: `100%`,
+    height: `20%`,
     display: `flex`,
     justifyContent: `center`,
-    backgroundColor: `red`,
+    alignItems: `center`,
+  },
+
+  "submit-btn": {
+    width: `80%`,
+    height: `40%`,
+    outline: `none`,
+    color: `RGB(87, 87, 87)`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
+    borderRadius: `7px`,
+    cursor: `pointer`,
+    letterSpacing: `2px`,
+    fontWeight: 600,
+    fontSize: `14px`,
   },
 
   "content-header": {
