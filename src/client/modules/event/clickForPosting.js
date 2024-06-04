@@ -41,6 +41,7 @@ export default () => {
       });
     });
     modalClose();
+    postingButtonHover();
     clickForFormSubmit();
   };
 };
