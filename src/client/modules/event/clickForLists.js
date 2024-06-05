@@ -1,3 +1,5 @@
+import jsonDirList from "../array/createdJsonDirList.js";
+
 /** 
  * TYPE[FUNCTION]
  * 
@@ -13,10 +15,12 @@ export default () => {
   const content = document.getElementById(`section-content`);
   document.querySelectorAll(`li`).forEach((element) => {
     element.onclick = (e) => {
+      console.dir(e.target.id);
       const eTargetTitle = e.target.textContent;
-      console.log(eTargetTitle);
-      console.log(title);
-      console.log(content);
+      jsonDirList.forEach((item) => {
+        console.log(item.id);
+        console.log(item.substr(10).replace(`.json`, ""));
+      });
     };
   });
 };

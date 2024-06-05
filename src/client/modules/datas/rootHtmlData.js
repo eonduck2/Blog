@@ -41,9 +41,9 @@ export default {
             <ul id="content-ul">
               ${jsonDirList
                 .map((fileName) => {
-                  return `<li style ="margin:7px; word-break: break-; cursor:pointer;">📒 ${fileName
-                    .substr(10)
-                    .replace(".json", "")}</li>`;
+                  const elementId = fileName.substr(0, 10).replace(" ", "");
+                  const elementName = fileName.substr(10).replace(".json", "");
+                  return `<li style ="margin:7px; word-break: break-all; cursor:pointer;" id="${elementId}">📒 ${elementName}</li>`;
                 })
                 .join("")}
             </ul>
