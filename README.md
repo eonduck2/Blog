@@ -1,61 +1,59 @@
 ```
-blog                                                   //
+gitTrainingWithServer                                  //
 ├─ favicon.ico                                         //
-├─ next.config.js                                      //
 ├─ package-lock.json                                   //
 ├─ package.json                                        //
 ├─ public                                              //
-│  ├─ html                                             //
-│  │  └─ posted.html                                   //
-│  ├─ images                                           //
+│  ├─ Gif                                              //
+│  ├─ Images                                           //
 │  └─ index.html                                       //
 ├─ README.md                                           //
 └─ src                                                 //
    ├─ client                                           //
    │  ├─ app.mjs                                       //
-   │  ├─ modules                                       //
-   │  │  ├─ allAboutElement                            //
-   │  │  │  ├─ appendElement.js                        //
-   │  │  │  ├─ createElement.js                        //
-   │  │  │  ├─ elementDynamicControl.js                //
-   │  │  │  └─ elementObject.js                        //
-   │  │  ├─ datas                                      //
-   │  │  │  └─ rootHtmlData.js                         //
-   │  │  ├─ event                                      //
-   │  │  │  └─ clickForPosting.js                      //
-   │  │  ├─ styles                                     //
-   │  │  │  └─ eleStyleProperties.js                   //
-   │  │  └─ template                                   //
-   │  │     └─ indexHtmlTemplate.js                    //
-   │  └─ postedHtml                                    //
-   │     ├─ app.mjs                                    //
-   │     └─ modules                                    //
+   │  └─ modules                                       //
+   │     ├─ allAboutElement                            //
+   │     │  ├─ appendElement.js                        //
+   │     │  ├─ createElement.js                        //
+   │     │  ├─ elementDynamicControl.js                //
+   │     │  ├─ elementObject.js                        //
+   │     │  └─ prependElement.js                       //
+   │     ├─ array                                      //
+   │     │  └─ createdJsonDirList.js                   //
+   │     ├─ datas                                      //
+   │     │  └─ rootHtmlData.js                         //
+   │     ├─ event                                      //
+   │     │  ├─ clickForFormSubmit.js                   //
+   │     │  ├─ clickForPosting.js                      //
+   │     │  ├─ modalCloser.js                          //
+   │     │  ├─ postingButtonHover.js                   //
+   │     │  └─ submitButtonHover.js                    //
+   │     ├─ styles                                     //
+   │     │  ├─ eleStyleProperties.js                   //
+   │     │  └─ objArrForStyle.js                       //
+   │     └─ template                                   //
+   │        └─ indexHtmlTemplate.js                    //
    ├─ json                                             //
+   │  └─ 7506340566ㅎㅇ.json                             //
    ├─ server                                           //
    │  ├─ modules                                       //
-   │  │  ├─ array                                      //
    │  │  ├─ checking                                   //
    │  │  │  └─ checkTypes.js                           //
    │  │  ├─ object                                     //
    │  │  │  └─ MimeTypeObject                          //
    │  │  │     └─ extensionAndMime.js                  //
    │  │  ├─ reading                                    //
-   │  │  │  └─ readFiles.js                            //
+   │  │  │  ├─ readFiles.js                            //
+   │  │  │  └─ readJsonDirAndWriteFile.js              //
    │  │  ├─ submit                                     //
-   │  │  │  ├─ methodGet                               //
-   │  │  │  │  └─ writeJson                            //
-   │  │  │  │     └─ writingGetSubmittedDatas.js       //
    │  │  │  └─ methodPost                              //
    │  │  │     └─ createObj                            //
    │  │  │        └─ createPostSubmittedDataObj.js     //
    │  │  └─ writing                                    //
    │  │     └─ writingJson.js                          //
    │  └─ server.mjs                                    //
-   ├─ share_modules                                    //
-   │  └─ date                                          //
-   │     └─ date.js                                    //
-   └─ styles                                           //
-      ├─ style.css                                     //
-      └─ styles.css.ts                                 //
+   └─ share_modules                                    //
+      └─ date                                          //
+         └─ date.js                                    //
 
 ```
