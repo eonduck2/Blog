@@ -18,7 +18,6 @@ export default () => {
       console.dir(e.target.id);
       const eTargetTitle = e.target.textContent;
       jsonDirList.forEach((item) => {
-        console.log(item.id);
         console.log(item.substr(10).replace(`.json`, ""));
       });
     };
