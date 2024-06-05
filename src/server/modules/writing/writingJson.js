@@ -13,11 +13,10 @@ import id from "../../../share_modules/date/date.js";
  */
 
 export default (obj) => {
-  const fileName = obj.title;
   const jsonParsedObj = JSON.stringify(obj, null, 2);
 
   fs.writeFile(
-    `./src/json/${id.uniqueId()}${fileName}.js`,
+    `./src/json/${id.uniqueId()}.js`,
     `export default ${jsonParsedObj}`,
     (err) => {
       if (err) {
