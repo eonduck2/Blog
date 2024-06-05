@@ -15,10 +15,12 @@ export default () => {
   const content = document.getElementById(`section-content`);
   document.querySelectorAll(`li`).forEach((element) => {
     element.onclick = (e) => {
-      console.dir(e.target.id);
-      const eTargetTitle = e.target.textContent;
+      const eTargetTitle = `${e.target.id}${e.target.textContent.substr(
+        3
+      )}.json`;
       jsonDirList.forEach((item) => {
-        console.log(item.substr(10).replace(`.json`, ""));
+        if (item == eTargetTitle) {
+        }
       });
     };
   });
