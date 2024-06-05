@@ -17,8 +17,8 @@ export default (obj) => {
   const jsonParsedObj = JSON.stringify(obj, null, 2);
 
   fs.writeFile(
-    `./src/json/${id.uniqueId()}${fileName}.json`,
-    jsonParsedObj,
+    `./src/json/${id.uniqueId()}${fileName}.js`,
+    `export default ${jsonParsedObj}`,
     (err) => {
       if (err) {
         throw new Error(`제이슨 라이팅 에러`);
