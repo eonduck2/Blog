@@ -41,7 +41,6 @@ export default {
             <ul id="content-ul">
               ${jsonDirList
                 .map((fileName) => {
-                  all;
                   return `<li style ="margin:7px; word-break: break-; cursor:pointer;">📒 ${fileName
                     .substr(10)
                     .replace(".json", "")}</li>`;

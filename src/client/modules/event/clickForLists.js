@@ -9,7 +9,12 @@
   @param NoParam
 */
 export default () => {
+  const title = document.getElementById(`section-title`);
+  const content = document.getElementById(`section-content`);
   document.querySelectorAll(`li`).forEach((element) => {
-    element.onclick = () => {};
+    element.onclick = () => {
+      console.log(title);
+      console.log(content);
+    };
   });
 };
