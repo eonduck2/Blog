@@ -41,7 +41,8 @@ export default {
             <ul id="content-ul">
               ${jsonDirList
                 .map((fileName) => {
-                  return `<li style ="margin:7px; word-break: break-all; cursor:pointer;">📒 ${fileName
+                  all;
+                  return `<li style ="margin:7px; word-break: break-; cursor:pointer;">📒 ${fileName
                     .substr(10)
                     .replace(".json", "")}</li>`;
                 })
@@ -49,8 +50,12 @@ export default {
             </ul>
           </aside>
           <section id="content-section">
-            <div id="content-section-title"></div>
-            <div id="content-section-content"></div>
+            <div id="content-section-title">
+                <span id="section-title"></span>
+            </div>
+            <div id="content-section-content">
+                <span id="section-content"></span>
+            </div>
           </section>
         </main>
       `,
