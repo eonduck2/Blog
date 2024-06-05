@@ -8,6 +8,7 @@ import datas from "./modules/datas/rootHtmlData.js";
 import elStyles from "./modules/styles/eleStyleProperties.js";
 import objArrForStyle from "./modules/styles/objArrForStyle.js";
 import postingButtonHover from "./modules/event/postingButtonHover.js";
+import clickLists from "./modules/event/clickForLists.js";
 
 /**
  *  IMPORTANT
@@ -29,6 +30,7 @@ window.onload = () => {
 };
 
 const indexFunc = () => {
+  clickLists();
   postingButtonHover();
   modalForPosting();
   objArrForStyle(elStyles, (elementArr) => {
