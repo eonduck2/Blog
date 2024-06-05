@@ -1,4 +1,5 @@
 import jsonDirList from "../array/createdJsonDirList.js";
+import test from "../../../json/7577276021ㅈㅂㅁㄱㄹㅇ.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -20,6 +21,7 @@ export default () => {
       )}.json`;
       jsonDirList.forEach((item) => {
         if (item == eTargetTitle) {
+          console.log(test);
         }
       });
     };

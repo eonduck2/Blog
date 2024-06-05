@@ -42,7 +42,7 @@ export default {
               ${jsonDirList
                 .map((fileName) => {
                   const elementId = fileName.substr(0, 10).replace(" ", "");
-                  const elementName = fileName.substr(10).replace(".json", "");
+                  const elementName = fileName.substr(10).replace(".js", "");
                   return `<li style ="margin:7px; word-break: break-all; cursor:pointer;" id="${elementId}">📒 ${elementName}</li>`;
                 })
                 .join("")}
