@@ -20,7 +20,7 @@ export default (path) => {
     }
     fs.writeFile(
       `./src/client/modules/array/createdJsonDirList.js`,
-      `export default ["${fileList}"]`,
+      `export default ${JSON.stringify(fileList, null, 2)}`,
       (err) => {
         if (err) throw new Error(`제이슨 파일 리스트 라이팅 오류`);
       }
@@ -28,6 +28,7 @@ export default (path) => {
     fileList.forEach((item) => {
       fs.readFile(`${path}/${item}`, (err, data) => {
         fileData.push(`${item.replace(`.json`, "")}:${data}`);
+
         fs.writeFile(
           `./src/client/modules/array/createdJsonFileDataList.js`,
           `export default {${fileData}}`,
