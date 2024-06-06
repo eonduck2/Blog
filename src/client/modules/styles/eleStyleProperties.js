@@ -111,7 +111,8 @@ export default {
     cursor: `pointer`,
     letterSpacing: `2px`,
     fontWeight: 600,
-    fontSize: `14px`,
+    fontSize: `24px`,
+    fontFamily: `Ownglyph_ryurue-Rg`,
   },
 
   "content-header": {
@@ -133,6 +134,8 @@ export default {
     borderRadius: `7px`,
     color: `white`,
     cursor: `pointer`,
+    fontFamily: `Ownglyph_ryurue-Rg`,
+    fontSize: `28px`,
   },
 
   "content-main": {
@@ -165,8 +168,9 @@ export default {
   },
 
   "posting-title": {
-    fontSize: `20px`,
     fontWeight: 600,
+    fontFamily: `Ownglyph_ryurue-Rg`,
+    fontSize: `40px`,
   },
 
   "content-ul": {
@@ -202,8 +206,8 @@ export default {
   },
 
   "section-title": {
-    fontSize: `30px`,
-    fontFamily: `Ownglyph ryurue Regular`,
+    fontSize: `40px`,
+    fontFamily: `Ownglyph_ryurue-Rg`,
     fontWeight: 600,
     paddingLeft: `20px`,
     wordBreak: `break-all`,
@@ -218,10 +222,11 @@ export default {
   },
 
   "section-content": {
-    fontSize: `20px`,
-    fontFamily: `Ownglyph ryurue Regular`,
+    fontSize: `25px`,
+    fontFamily: `Ownglyph_ryurue-Rg`,
     fontWeight: 400,
     paddingLeft: `20px`,
     wordBreak: `break-all`,
+    letterSpacing: `1px`,
   },
 };

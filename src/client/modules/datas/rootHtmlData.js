@@ -44,7 +44,7 @@ export default {
                 .map((fileName) => {
                   const elementId = fileName.replace(`.json`, "");
                   const title = fileListObj[elementId].title;
-                  return `<li style ="margin:7px; word-break: break-all; cursor:pointer;" id="${elementId}">📒 ${title}</li>`;
+                  return `<li style ="margin:7px; word-break: break-all; cursor:pointer; font-family: Ownglyph_ryurue-Rg; font-size: 28px; font-weight: 500;" id="${elementId}">📒 ${title}</li>`;
                 })
                 .join("")}
             </ul>
