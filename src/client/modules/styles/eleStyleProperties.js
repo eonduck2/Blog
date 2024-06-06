@@ -137,7 +137,7 @@ export default {
   "content-main": {
     width: "100%",
     height: "90%",
-    backgroundColor: `red`,
+    backgroundColor: `white`,
     display: `flex`,
     justifyContent: `center`,
     alignItems: `center`,
