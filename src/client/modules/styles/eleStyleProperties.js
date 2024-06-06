@@ -116,7 +116,8 @@ export default {
   "content-header": {
     width: "100%",
     height: "10%",
-    backgroundColor: `black`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
     display: `flex`,
     justifyContent: `center`,
     alignItems: `center`,
