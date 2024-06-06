@@ -154,7 +154,8 @@ export default {
   "posting-title-container": {
     width: `100%`,
     height: `10%`,
-    backgroundColor: `green`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
     display: `flex`,
     justifyContent: `center`,
     alignItems: `center`,
