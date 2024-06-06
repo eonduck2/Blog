@@ -6,7 +6,7 @@ import elStyles from "../styles/eleStyleProperties.js";
 import elPrepend from "../allAboutElement/prependElement.js";
 import elCreate from "../allAboutElement/createElement.js";
 import modalClose from "./modalCloser.js";
-import postingButtonHover from "./submitButtonHover.js";
+import submitButtonHover from "./submitButtonHover.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -41,7 +41,7 @@ export default () => {
       });
     });
     modalClose();
-    postingButtonHover();
+    submitButtonHover();
     clickForFormSubmit();
   };
 };

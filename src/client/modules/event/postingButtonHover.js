@@ -16,8 +16,8 @@ export default () => {
   const writingBtn = document.getElementById(`posting-button`);
 
   const writingBtnStyles = {
-    backgroundColor: `rgb(23, 112, 207)`,
-    color: `rgb(190, 191, 189)`,
+    backgroundColor: `rgb(59, 59, 59)`,
+    color: `rgb(201, 201, 201)`,
   };
 
   writingBtn.onmouseover = () => {

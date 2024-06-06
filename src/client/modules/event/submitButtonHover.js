@@ -14,8 +14,8 @@ export default () => {
   const $submitBtn = document.getElementById(`submit-btn`);
 
   const submitHoverBtnStyles = {
-    backgroundColor: `rgb(207, 207, 207)`,
-    color: `rgb(82, 82, 82)`,
+    backgroundColor: `rgb(59, 59, 59)`,
+    color: `rgb(201, 201, 201)`,
   };
 
   $submitBtn.onmouseover = () => {
