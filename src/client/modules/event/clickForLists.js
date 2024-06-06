@@ -1,4 +1,5 @@
 import jsonDirList from "../array/createdJsonDirList.js";
+import fileListObj from "../array/createdJsonFileDataList.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -15,13 +16,10 @@ export default () => {
   const content = document.getElementById(`section-content`);
   document.querySelectorAll(`li`).forEach((element) => {
     element.onclick = (e) => {
-      const eTargetTitle = `${e.target.id}${e.target.textContent.substr(
-        3
-      )}.json`;
-      jsonDirList.forEach((item) => {
-        if (item == eTargetTitle) {
-        }
-      });
+      const sectionTitle = document.getElementById(`section-title`);
+      const sectionContent = document.getElementById(`section-content`);
+      sectionTitle.textContent = fileListObj[e.target.id].title;
+      sectionContent.textContent = fileListObj[e.target.id].content;
     };
   });
 };

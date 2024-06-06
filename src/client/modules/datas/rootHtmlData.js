@@ -42,11 +42,7 @@ export default {
             <ul id="content-ul">
               ${jsonDirList
                 .map((fileName) => {
-                  // const elementId = fileName.substr(0, 10).replace(" ", "");
-                  // const elementName = fileName.substr(10).replace(".js", "");
                   const elementId = fileName.replace(`.json`, "");
-                  console.log(fileListObj);
-                  console.log(fileListObj[elementId].title);
                   const title = fileListObj[elementId].title;
                   return `<li style ="margin:7px; word-break: break-all; cursor:pointer;" id="${elementId}">📒 ${title}</li>`;
                 })
