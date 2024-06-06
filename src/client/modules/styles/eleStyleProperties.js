@@ -211,6 +211,7 @@ export default {
     fontFamily: `Ownglyph_ryurue-Rg`,
     fontWeight: 600,
     paddingLeft: `20px`,
+    paddingRight: `20px`,
     wordBreak: `break-all`,
   },
 
@@ -227,6 +228,7 @@ export default {
     fontFamily: `Ownglyph_ryurue-Rg`,
     fontWeight: 400,
     paddingLeft: `20px`,
+    paddingRight: `20px`,
     wordBreak: `break-all`,
     letterSpacing: `1px`,
   },
