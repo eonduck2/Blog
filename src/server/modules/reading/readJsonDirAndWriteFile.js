@@ -12,16 +12,23 @@ import fs from "fs";
  */
 
 export default (path) => {
+  const fileData = [];
+
   fs.readdir(path, (err, fileList) => {
     if (err) {
       throw new Error(`디렉토리 리딩 에러`);
     }
-    const test = fileList.map((item) => {
+    fileList.forEach((item) => {
       fs.readFile(`${path}/${item}`, (err, data) => {
-        // console.log(JSON.parse(data));
-        return JSON.parse(data);
+        fileData.push(data);
+        fs.writeFile(
+          `./src/client/modules/array/createdJsonFileDataList.js`,
+          `export default ${fileData}`,
+          (err) => {
+            if (err) throw new Error(`제이슨 파일 라이팅 에러`);
+          }
+        );
       });
     });
-    console.log(test);
   });
 };
