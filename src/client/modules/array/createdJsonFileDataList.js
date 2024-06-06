@@ -1,6 +1,4 @@
-export default {
-  7668713968: {
-    title: "ㅈㅂㄷㄱㅇㄴㅁ",
-    content: "ㅈㄷㅂㄱㅇㅁㄴㄹ",
-  },
-};
+export default {7679134779:{
+  "title": "테스트",
+  "content": "ㅎㅇ"
+}}

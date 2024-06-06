@@ -7,7 +7,7 @@ import fs from "fs";
  *
  * CHECKLIST: 24.05.31/09:20 AM 구현
  *
- * NOTE: 1. 특정 폴더를 배열로 리턴해주는 함수
+ * NOTE: 1. 특정 폴더를 읽고, 관련 정보로 파일을 생성하는 모듈
  * @param path 폴더를 읽을 경로
  */
 
