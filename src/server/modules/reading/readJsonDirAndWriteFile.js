@@ -21,7 +21,6 @@ export default (path) => {
     fileList.forEach((item) => {
       fs.readFile(`${path}/${item}`, (err, data) => {
         fileData.push(`${item.replace(`.json`, "")}:${data}`);
-        console.log(fileData);
         fs.writeFile(
           `./src/client/modules/array/createdJsonFileDataList.js`,
           `export default {${fileData}}`,
