@@ -146,7 +146,8 @@ export default {
   "posting-list": {
     width: "25%",
     height: "95%",
-    backgroundColor: `blue`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
     overflowY: `auto`,
     overflowX: `hidden`,
   },
@@ -155,7 +156,7 @@ export default {
     width: `100%`,
     height: `10%`,
     backgroundColor: `white`,
-    border: `2px solid black`,
+    borderBottom: `2px solid black`,
     display: `flex`,
     justifyContent: `center`,
     alignItems: `center`,
