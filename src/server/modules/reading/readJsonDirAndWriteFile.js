@@ -16,14 +16,10 @@ export default (path) => {
     if (err) {
       throw new Error(`디렉토리 리딩 에러`);
     }
-    fs.writeFile(
-      `./src/client/modules/array/createdJsonDirList.js`,
-      `export default ${JSON.stringify(fileList, null, 2)}`,
-      (err) => {
-        if (err) {
-          throw new Error(`제이슨 디렉토리 리스트 업 에러`);
-        }
-      }
-    );
+    fileList.forEach((item) => {
+      fs.readFile(`${path}/${item}`, (err, data) => {
+        console.log(JSON.parse(data));
+      });
+    });
   });
 };
