@@ -1,11 +1,10 @@
 ```
-gitTrainingWithServer                                  //
+blog                                                   //
 ├─ favicon.ico                                         //
 ├─ package-lock.json                                   //
 ├─ package.json                                        //
 ├─ public                                              //
-│  ├─ Gif                                              //
-│  ├─ Images                                           //
+│  ├─ images                                           //
 │  └─ index.html                                       //
 ├─ README.md                                           //
 └─ src                                                 //
@@ -19,24 +18,28 @@ gitTrainingWithServer                                  //
    │     │  ├─ elementObject.js                        //
    │     │  └─ prependElement.js                       //
    │     ├─ array                                      //
-   │     │  └─ createdJsonDirList.js                   //
+   │     │  ├─ createdJsonDirList.js                   //
+   │     │  └─ createdJsonFileDataList.js              //
    │     ├─ datas                                      //
    │     │  └─ rootHtmlData.js                         //
    │     ├─ event                                      //
    │     │  ├─ clickForFormSubmit.js                   //
+   │     │  ├─ clickForLists.js                        //
    │     │  ├─ clickForPosting.js                      //
    │     │  ├─ modalCloser.js                          //
    │     │  ├─ postingButtonHover.js                   //
    │     │  └─ submitButtonHover.js                    //
    │     ├─ styles                                     //
    │     │  ├─ eleStyleProperties.js                   //
-   │     │  └─ objArrForStyle.js                       //
+   │     │  ├─ objArrForStyle.js                       //
+   │     │  └─ style.css                               //
    │     └─ template                                   //
    │        └─ indexHtmlTemplate.js                    //
    ├─ json                                             //
-   │  └─ 7506340566ㅎㅇ.json                             //
+   │  └─ 7679788368.json                               //
    ├─ server                                           //
    │  ├─ modules                                       //
+   │  │  ├─ array                                      //
    │  │  ├─ checking                                   //
    │  │  │  └─ checkTypes.js                           //
    │  │  ├─ object                                     //
