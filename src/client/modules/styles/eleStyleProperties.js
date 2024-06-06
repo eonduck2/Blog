@@ -150,6 +150,7 @@ export default {
     border: `2px solid black`,
     overflowY: `auto`,
     overflowX: `hidden`,
+    borderRadius: `7px`,
   },
 
   "posting-title-container": {
@@ -168,7 +169,6 @@ export default {
   },
 
   "content-ul": {
-    // width: `100%`,
     listStyleType: `none`,
     fontSize: `20px`,
     fontWeight: 400,
@@ -187,6 +187,7 @@ export default {
     gap: `40px`,
     justifyContent: `center`,
     alignItems: `center`,
+    borderRadius: `7px`,
   },
 
   "content-section-title": {
@@ -196,18 +197,30 @@ export default {
     border: `2px solid black`,
     display: `flex`,
     alignItems: `center`,
+    borderRadius: `7px`,
   },
 
   "section-title": {
     fontSize: `30px`,
-    fontFamily: `dunggeunmo`,
+    fontFamily: `Ownglyph ryurue Regular`,
     fontWeight: 600,
-    paddingLeft: `40px`,
+    paddingLeft: `20px`,
+    wordBreak: `break-all`,
   },
 
   "content-section-content": {
     width: "80%",
     height: "80%",
-    backgroundColor: `purple`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
+    borderRadius: `7px`,
+  },
+
+  "section-content": {
+    fontSize: `20px`,
+    fontFamily: `Ownglyph ryurue Regular`,
+    fontWeight: 400,
+    paddingLeft: `20px`,
+    wordBreak: `break-all`,
   },
 };

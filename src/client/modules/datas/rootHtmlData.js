@@ -54,7 +54,7 @@ export default {
                 <span id="section-title"></span>
             </div>
             <div id="content-section-content">
-                <span id="section-content"></span>
+                <p id="section-content"></p>
             </div>
           </section>
         </main>
