@@ -192,7 +192,10 @@ export default {
   "content-section-title": {
     width: "80%",
     height: "10%",
-    backgroundColor: `black`,
+    backgroundColor: `white`,
+    border: `2px solid black`,
+    display: `flex`,
+    alignItems: `center`,
   },
 
   "content-section-content": {
