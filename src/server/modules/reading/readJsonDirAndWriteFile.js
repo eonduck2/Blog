@@ -16,10 +16,12 @@ export default (path) => {
     if (err) {
       throw new Error(`디렉토리 리딩 에러`);
     }
-    fileList.forEach((item) => {
+    const test = fileList.map((item) => {
       fs.readFile(`${path}/${item}`, (err, data) => {
-        console.log(JSON.parse(data));
+        // console.log(JSON.parse(data));
+        return JSON.parse(data);
       });
     });
+    console.log(test);
   });
 };

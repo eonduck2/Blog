@@ -1,5 +1,4 @@
 import jsonDirList from "../array/createdJsonDirList.js";
-import test from "../../../json/7596002119.js";
 
 /** 
  * TYPE[FUNCTION]
@@ -12,7 +11,6 @@ import test from "../../../json/7596002119.js";
   @param NoParam
 */
 export default () => {
-  console.log(test);
   const title = document.getElementById(`section-title`);
   const content = document.getElementById(`section-content`);
   document.querySelectorAll(`li`).forEach((element) => {
@@ -22,7 +20,6 @@ export default () => {
       )}.json`;
       jsonDirList.forEach((item) => {
         if (item == eTargetTitle) {
-          console.log(test);
         }
       });
     };
