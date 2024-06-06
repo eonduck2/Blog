@@ -198,6 +198,13 @@ export default {
     alignItems: `center`,
   },
 
+  "section-title": {
+    fontSize: `30px`,
+    fontFamily: `dunggeunmo`,
+    fontWeight: 600,
+    paddingLeft: `40px`,
+  },
+
   "content-section-content": {
     width: "80%",
     height: "80%",
