@@ -18,6 +18,13 @@ export default (path) => {
     if (err) {
       throw new Error(`디렉토리 리딩 에러`);
     }
+    fs.writeFile(
+      `./src/client/modules/array/createdJsonDirList.js`,
+      `export default ["${fileList}"]`,
+      (err) => {
+        if (err) throw new Error(`제이슨 파일 리스트 라이팅 오류`);
+      }
+    );
     fileList.forEach((item) => {
       fs.readFile(`${path}/${item}`, (err, data) => {
         fileData.push(`${item.replace(`.json`, "")}:${data}`);
