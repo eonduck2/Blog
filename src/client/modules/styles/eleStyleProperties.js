@@ -203,6 +203,7 @@ export default {
     display: `flex`,
     alignItems: `center`,
     borderRadius: `7px`,
+    overflowY: `auto`,
   },
 
   "section-title": {
