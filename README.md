@@ -9,8 +9,7 @@
 
 # How to work
 - Clone: https://github.com/eonduck2/Blog.git
-- Command: npm i
-           -> npm start
+- Command: npm i -> npm start
 
 # Preview
 ![image](https://github.com/eonduck2/Blog/assets/127479390/127db7a6-c0ac-4b27-b7a6-9256695fce1b)
