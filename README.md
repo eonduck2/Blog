@@ -7,6 +7,11 @@
 # 프로젝트 설계서
 - https://drive.google.com/file/d/1Jzys8llo3lL6SWRFbBvcP1n9g8KEQz9O/view?usp=drive_link
 
+# Stacks
+- HTML
+- CSS
+- JS
+
 # How to work
 - Clone: https://github.com/eonduck2/Blog.git
 - Command: npm i -> npm start
