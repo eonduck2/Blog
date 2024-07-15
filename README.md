@@ -11,6 +11,7 @@
 - HTML
 - CSS
 - JS
+- Node.js
 
 # How to work
 - Clone: https://github.com/eonduck2/Blog.git
