@@ -1,22 +1,61 @@
-# Project
-- 개인적으로 사용할 수 있는 블로그입니다.
 
-# 진행 기간
-- 24.05.24 ~ 24.06.06
+```
+blog                                                   //
+├─ favicon.ico                                         //
+├─ package-lock.json                                   //
+├─ package.json                                        //
+├─ public                                              //
+│  └─ index.html                                       //
+├─ README.md                                           //
+└─ src                                                 //
+   ├─ client                                           //
+   │  ├─ app.mjs                                       //
+   │  └─ modules                                       //
+   │     ├─ allAboutElement                            //
+   │     │  ├─ appendElement.js                        //
+   │     │  ├─ createElement.js                        //
+   │     │  ├─ elementDynamicControl.js                //
+   │     │  ├─ elementObject.js                        //
+   │     │  └─ prependElement.js                       //
+   │     ├─ array                                      //
+   │     │  ├─ createdJsonDirList.js                   //
+   │     │  └─ createdJsonFileDataList.js              //
+   │     ├─ datas                                      //
+   │     │  └─ rootHtmlData.js                         //
+   │     ├─ event                                      //
+   │     │  ├─ clickForFormSubmit.js                   //
+   │     │  ├─ clickForLists.js                        //
+   │     │  ├─ clickForPosting.js                      //
+   │     │  ├─ modalCloser.js                          //
+   │     │  ├─ postingButtonHover.js                   //
+   │     │  └─ submitButtonHover.js                    //
+   │     ├─ styles                                     //
+   │     │  ├─ eleStyleProperties.js                   //
+   │     │  ├─ objArrForStyle.js                       //
+   │     │  └─ style.css                               //
+   │     └─ template                                   //
+   │        └─ indexHtmlTemplate.js                    //
+   ├─ json                                             //
+   │  └─ 7679788368.json                               //
+   ├─ server                                           //
+   │  ├─ modules                                       //
+   │  │  ├─ checking                                   //
+   │  │  │  └─ checkTypes.js                           //
+   │  │  ├─ object                                     //
+   │  │  │  └─ MimeTypeObject                          //
+   │  │  │     └─ extensionAndMime.js                  //
+   │  │  ├─ reading                                    //
+   │  │  │  ├─ readFiles.js                            //
+   │  │  │  └─ readJsonDirAndWriteFile.js              //
+   │  │  ├─ submit                                     //
+   │  │  │  └─ methodPost                              //
+   │  │  │     └─ createObj                            //
+   │  │  │        └─ createPostSubmittedDataObj.js     //
+   │  │  └─ writing                                    //
+   │  │     └─ writingJson.js                          //
+   │  └─ server.mjs                                    //
+   └─ share_modules                                    //
+      └─ date                                          //
+         └─ date.js                                    //
 
-# 프로젝트 설계서
-- https://drive.google.com/file/d/1Jzys8llo3lL6SWRFbBvcP1n9g8KEQz9O/view?usp=drive_link
-
-# Stacks
-- HTML
-- CSS
-- JS
-- Node.js
-
-# How to work
-- Clone: https://github.com/eonduck2/Blog.git
-- Command: npm i -> npm start
-
-# Preview
-![image](https://github.com/eonduck2/Blog/assets/127479390/127db7a6-c0ac-4b27-b7a6-9256695fce1b)
-![image](https://github.com/eonduck2/Blog/assets/127479390/0b55d6b3-e8e3-4a04-9ab7-863ec710a791)
+```
